@@ -1919,6 +1919,10 @@ This list is for developers and modders working with such formats. It provides t
 - [cvaos (decomp)](https://github.com/testyourmine/cvaos) - Matching decompilation of Castlevania: Aria of Sorrow.
 - [sotn-decomp (decomp)](https://github.com/xeeynamo/sotn-decomp) - Matching decompilation of Castlevania: Symphony of the Night (PSX, PSP, Saturn).
 
+#### Enthusia Professional Racing
+
+- [EnthusiaVolumeFS](https://github.com/Nenkai/EnthusiaVolumeFS) - Extract files from Enthusia Professional Racing volumes (PS2). Supports SLPM_68519 (Subaru Demo), SLPM_65948 (Japan), SLUS_20967 (US), and SLES_53125 (Europe).
+
 ### Kuju London
 
 - [PF2-BMP-Editor](https://github.com/htimsnhoj543678/PF2-BMP-Editor) - .pf2 file editor for Battalion Wars 2 (BWii).
@@ -2095,6 +2099,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin)
 - [F.E.A.R. 2 unofficial extraction tools](https://www.moddb.com/games/fear-2/downloads/fear-2-unofficial-extraction-tools) - Unofficial tools for extracting F.E.A.R. 2 archives, textures, and sounds.
+- [Fear2Tools](https://github.com/Nenkai/Fear2Tools) - F.E.A.R 2 Project Origin LTArchive extractor/packer & database editor.
 - [FEAR Online 3dsmax script (F.E.A.R. 2)](https://www.moddb.com/games/fear-2/downloads/fear-online-3dsmax-script)
 - [Video Tutorial: 3DSMax Plugin (F.E.A.R.)](https://www.moddb.com/games/fear/downloads/video-tutorial-3dsmax-plugin)
 - [FEAR Database Extractor](https://www.moddb.com/games/fear/downloads/fear-database-extractor)
@@ -2583,6 +2588,8 @@ This list is for developers and modders working with such formats. It provides t
 - [gt2-reversing](https://github.com/ginryuoku/gt2-reversing) - Reverse engineering tools for Gran Turismo 2.
 - [PDTools](https://github.com/Nenkai/PDTools) - Utilities for extracting and modifying Gran Turismo game files.
 - [GT4SaveEditor](https://github.com/Nenkai/GT4SaveEditor) - Save editor for Gran Turismo 4.
+- [AdhocScriptEngine](https://github.com/Nenkai/AdhocScriptEngine) - Reverse engineering the adhoc script/assembly language & system of the Gran Turismo series.
+- [esprima-dotnet](https://github.com/Nenkai/esprima-dotnet) - Fork of Esprima .NET to target the scripting language for Gran Turismo series, Adhoc.
 
 ### Rebel Act
 
@@ -2827,6 +2834,7 @@ This list is for developers and modders working with such formats. It provides t
 - [LibOrbisPkg](https://github.com/OpenOrbis/LibOrbisPkg) - Library, GUI, and CLI tools for creating, inspecting, and modifying PlayStation 4 PKG, SFO, PFS, and related filetypes. Open-source alternative to Sony SDK tools.
 - [SGXDataBuilder](https://github.com/Nenkai/SGXDataBuilder) - Creates and builds Sony SGX/SGXD Audio Banks from standard audio formats. Used in various PSP and PS3 games including Gran Turismo 5/6, LocoRoco Cocoreccho, Ape Escape Move, and more.
   - Formats: sgd/sgh/sgb (output), WAV/AC3 (input).
+- [DriveClubFS](https://github.com/Nenkai/DriveClubFS) - Unpacks files from DriveClub .ndx + .dat file system (PS4). Also supports extracting binary resources, XMLs and textures from .rpk resource packs. Supports versions 1.00, 1.28, and NPXX51272 (Alpha/Proto Build).
 - [LibreFios](https://github.com/neptuwunium/LibreFios) - PSARC library in C# for working with PlayStation PSARC archive format.
 - [memcardrex](https://github.com/ShendoXT/memcardrex) - Advanced PlayStation 1 memory card editor for managing save files with support for multiple formats.
 - [mymc](https://github.com/uyjulian/mymc) - Utility for working with PlayStation 2 memory card images.
@@ -2844,6 +2852,13 @@ This list is for developers and modders working with such formats. It provides t
 
 - [FFCC-Decomp (decomp)](https://github.com/zcanann/FFCC-Decomp) - Matching decompilation of Final Fantasy Crystal Chronicles.
 - [ff7tool](https://github.com/jkbenaim/ff7tool) - Tool for viewing Final Fantasy VII world maps.
+- [FF16Tools](https://github.com/Nenkai/FF16Tools) - Tools & Library for Final Fantasy XVI / 16 Engine games (FFXVI, FINAL FANTASY TACTICS - The Ivalice Chronicles).
+  - Features: PAC unpacker/repacker, TEX to DDS conversion, DDS/image to TEX, NXD (Nex/ExcelDB) conversion, PZD (Panzer dialogue) conversion, save file unpack/pack, FlatBuffer schemas for KDB (KineDriver) & BNMB (Bonamik).
+- [ffxvi-nex-layouts](https://github.com/Nenkai/ffxvi-nex-layouts) - Nex sheet layouts for FINAL FANTASY XVI, for use with FF16Tools.
+- [fftivc-nex-layouts](https://github.com/Nenkai/fftivc-nex-layouts) - Nex sheet layouts for FINAL FANTASY TACTICS - The Ivalice Chronicles, for use with FF16Tools.
+- [ff16.utility.modloader](https://github.com/Nenkai/ff16.utility.modloader) - Final Fantasy XVI / 16 Mod Loader for Reloaded-II using FF16Tools.
+- [fftivc.utility.modloader](https://github.com/Nenkai/fftivc.utility.modloader) - FINAL FANTASY TACTICS - The Ivalice Chronicles Mod loader for Reloaded-II using FF16Tools.
+- [FaithFramework](https://github.com/Nenkai/FaithFramework) - Mod Framework for FFXVI using Reloaded-II. Features: ImGui API, Nex Runtime Interface API, Resource Manager, Camera Manager (WorldToScreen/Camera Pos).
 
 #### Chrono Cross
 
