@@ -179,6 +179,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Divinity: Original Sin 2](#divinity-original-sin-2)
   - [Level-5](#level-5)
   - [Lionhead Studios (Black \& White)](#lionhead-studios-black--white)
+  - [Macrospace](#macrospace)
+    - [Fatal Force: Earth Assault](#fatal-force-earth-assault)
   - [Metropolis Software](#metropolis-software)
     - [Gorky 17](#gorky-17)
   - [Microsoft Studios / Bungie / Turn 10](#microsoft-studios--bungie--turn-10)
@@ -365,6 +367,7 @@ This list is for developers and modders working with such formats. It provides t
   - [H2O Entertainment (Aidyn Chronicles)](#h2o-entertainment-aidyn-chronicles)
   - [Bohemia Interactive](#bohemia-interactive)
   - [Bugbear Entertainment (FlatOut)](#bugbear-entertainment-flatout)
+  - [Bugbear Entertainment (Team6 Engine - FlatOut 3)](#bugbear-entertainment-team6-engine---flatout-3)
   - [Blizzard Entertainment (World of Warcraft)](#blizzard-entertainment-world-of-warcraft)
   - [Westwood Studios / EA Los Angeles](#westwood-studios--ea-los-angeles)
   - [Mojang Studios](#mojang-studios)
@@ -1991,6 +1994,14 @@ This list is for developers and modders working with such formats. It provides t
 
 - [bw2-unstuff](https://github.com/openblack/bw2-unstuff) - Unpacker for Black & White 2 archive files.
 
+### Macrospace
+
+#### Fatal Force: Earth Assault
+
+- [mff-extract](https://github.com/xNyaDev/mff-extract) - Command-line utility for extracting PAK archives from Fatal Force: Earth Assault.
+  - Formats: .pak archives (J2ME game resources).
+  - Features: List archive contents, extract specific or all files, verbose output support.
+
 ### Metropolis Software
 
 #### Gorky 17
@@ -3243,7 +3254,26 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Bugbear Entertainment (FlatOut)
 
+- [bfstool](https://github.com/xNyaDev/bfstool) - Tool for working with BFS (BugBear File System) archives.
+  - Games: FlatOut (1, 2, Head On), FlatOut: Ultimate Carnage, Rally Trophy, Tough Trucks, Sega Rally Revo, and more.
+  - Formats: .bfs archives (BFS v1 and v2), zlib compression.
+  - Features: List/extract/create archives, glob pattern filtering, CRC32/MD5/SHA1 checksums for unknown files, compression optimization.
+- [FlatOutW32BGMTool](https://github.com/gaycoderprincess/FlatOutW32BGMTool) - Tool for handling .w32 (tracks) and .bgm (vehicles) files in FlatOut games.
+  - Games: FlatOut 1/2/Ultimate Carnage, Rally Trophy, Tough Trucks.
+  - Formats: .w32 (maps/tracks), .bgm (vehicles), .fbx (import/export), collision (.cdb.gen).
+  - Features: Export to/import from FBX, format conversion (FO2 ↔ FO1, FOUC ↔ others), track editing, material/shader export, BVH zone modification.
 - [blender_flatout2_trackai_importer](https://github.com/gmazy/blender_flatout2_trackai_importer) - Blender addon for importing trackai.bin files from FlatOut 2.
+- [xnya game-mods cryptutil collection](https://github.com/xNyaDev/game-mods) - Encryption key dumping utilities for BugBear games (in *_cryptutil directories).
+  - `xnya_rallytrophy_cryptutil`: Dump encryption keys from Rally Trophy for decrypted execution.
+  - `xnya_retrodemo_cryptutil`: Dump encryption keys from Bugbear Retro Demo 2002 for decrypted execution.
+  - Integration: Works with bfstool for archive handling.
+
+### Bugbear Entertainment (Team6 Engine - FlatOut 3)
+
+- [team6tool](https://github.com/ermaccer/team6tool) - Tool for extracting models and textures from Team6 engine games.
+  - Games: FlatOut 3, ESR, Pizza Dude (Team6 engine v2 only).
+  - Formats: .dcm (models), .dct (textures, exports as DDS).
+  - Features: Extract vehicles, characters, and objects to OBJ format; preserve material data (excludes environment maps).
 
 ### Blizzard Entertainment (World of Warcraft)
 
