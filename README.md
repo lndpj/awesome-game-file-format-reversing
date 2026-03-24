@@ -34,7 +34,6 @@ This list is for developers and modders working with such formats. It provides t
 - [🛠️ General Tools](#️-general-tools)
   - [🎨 Asset Viewers \& Converters](#-asset-viewers--converters)
   - [📦 Archive Extractors](#-archive-extractors)
-  - [🔊 Audio Tools](#-audio-tools)
   - [🌐 Translation \& Localization](#-translation--localization)
   - [🔍 Hex Editors](#-hex-editors)
   - [🔬 Format Analysis \& Reverse Engineering](#-format-analysis--reverse-engineering)
@@ -46,6 +45,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Unity](#unity)
   - [Unreal Engine](#unreal-engine)
   - [CryEngine](#cryengine)
+  - [Dagor Engine](#dagor-engine)
   - [Hedgehog Engine](#hedgehog-engine)
   - [Northlight Engine](#northlight-engine)
   - [Pragma Engine](#pragma-engine)
@@ -142,6 +142,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Gen III](#gen-iii)
     - [Gen VI](#gen-vi)
     - [Gen V](#gen-v)
+    - [Switch (Gen VIII+)](#switch-gen-viii)
   - [Gameloft](#gameloft)
   - [Genius Sonority](#genius-sonority)
   - [Genki](#genki)
@@ -157,6 +158,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Hudson Soft](#hudson-soft)
   - [Insomniac Games](#insomniac-games)
   - [Intelligent Systems](#intelligent-systems)
+    - [Fire Emblem: Three Houses](#fire-emblem-three-houses)
     - [Paper Mario 64](#paper-mario-64)
     - [Paper Mario: TTYD / Super Paper Mario](#paper-mario-ttyd--super-paper-mario)
   - [Interactive Studios](#interactive-studios)
@@ -236,6 +238,8 @@ This list is for developers and modders working with such formats. It provides t
     - [New Super Mario Bros DS](#new-super-mario-bros-ds)
     - [Metroid Prime](#metroid-prime)
     - [Pokemon](#pokemon)
+  - [Nexon](#nexon)
+    - [MapleStory 2](#maplestory-2)
   - [Ntreev Soft](#ntreev-soft)
   - [BioWare](#bioware)
     - [Mass Effect](#mass-effect)
@@ -304,6 +308,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Sony (First Party)](#sony-first-party)
   - [Square Enix](#square-enix)
     - [Final Fantasy](#final-fantasy)
+    - [Final Fantasy XV](#final-fantasy-xv)
+    - [Final Fantasy XIII](#final-fantasy-xiii)
+    - [Final Fantasy VIII](#final-fantasy-viii)
     - [Chrono Cross](#chrono-cross)
     - [Xenogears](#xenogears)
     - [Xenosaga](#xenosaga)
@@ -368,7 +375,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Bohemia Interactive](#bohemia-interactive)
   - [Bugbear Entertainment (FlatOut)](#bugbear-entertainment-flatout)
   - [Bugbear Entertainment (Team6 Engine - FlatOut 3)](#bugbear-entertainment-team6-engine---flatout-3)
-  - [Blizzard Entertainment (World of Warcraft)](#blizzard-entertainment-world-of-warcraft)
+  - [Blizzard Entertainment](#blizzard-entertainment)
+    - [World of Warcraft](#world-of-warcraft)
+    - [StarCraft II \& Heroes of the Storm](#starcraft-ii--heroes-of-the-storm)
   - [Westwood Studios / EA Los Angeles](#westwood-studios--ea-los-angeles)
   - [Mojang Studios](#mojang-studios)
   - [Grasshopper Manufacture (No More Heroes, Killer7)](#grasshopper-manufacture-no-more-heroes-killer7)
@@ -476,6 +485,7 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: RGBA8888, RGB888, RGB565, DXT1, ASTC, indexed formats (PAL4/8/16).
   - Platforms: PSP, PS2, PS3, PS4, Xbox (unswizzling support).
   - Features: Decompression (RLE, PackBits, ZLIB), export to DDS/PNG/BMP.
+- [BCDec](https://github.com/neptuwunium/bcdec) - All-in-one C++ texture decoding library and tool for BC1-BC7, ETC1/2, and ASTC formats.
 - [swizzleinator](https://github.com/v4nguard/swizzleinator) - Library for detiling/deswizzling various image formats. `no_std`-friendly. Supports PS3, PS4, and X360 texture swizzling/unswizzling.
 - [RAW pixels viewer](https://www.kernellabs.com/rawpixels/) - Web-based tool for analyzing raw image data. Displays memory dumps of frame buffers, video buffers, and uncompressed video files. Allows interactive exploration of color formats and image parameters (width, height, offset, flip, invert, zoom) to help identify unknown pixel formats.
 - [DDS.Tools](https://github.com/BoBoBaSs84/DDS.Tools) - Simple DDS and PNG tool set that converts DDS images to PNG images and vice versa on a large scale. Has options for duplicate detection and sorting.
@@ -509,11 +519,6 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: .zip, .tar (including compressed variants), .rar (read-only), .7z (read-only), brotli, bzip2, gzip, lz4, lzip, minlz, snappy/S2, xz, zlib, zstandard.
   - Features: Stream-oriented APIs, automatic format identification, password-protected 7-Zip/RAR support, insert into .tar/.zip without recreating, multithreaded Gzip, DeepFS for traversing archives transparently.
 - [GARbro](https://github.com/morkt/GARbro) - Visual novels resource browser and extractor supporting many formats.
-  - Engines: KiriKiri (KAG3/TJS2), Nitro+, NScripter, Ren'Py, CatSystem2, AliceSoft, BGI/Ethornell, Liar-soft, Unity, Wolf RPG Editor, RealLive (Key/Visual Arts), Majiro, Nekoneko Soft, Active Soft, DRS, NeXAS, and many others.
-  - Formats: `.xp3` (KiriKiri), `.npa` (Nitro+), `.nsa`, `.sar`, `.dat` (NScripter), `.rpa` (Ren'Py), `.int`, `.hg3` (CatSystem2), `.ald`, `.afa`, `.alk` (AliceSoft), `.arc`, `.bsa` (BGI/Ethornell), `.xfl` (Liar-soft), UnityFS, `.assets` (Unity), `.wolf`, `.data` (Wolf RPG Editor), and 200+ other archive formats.
-  - Notable Games: *Fate/stay night*, *Fate/hollow ataraxia*, *Steins;Gate*, *Chaos;Head*, *Tsukihime*, *Umineko*, *Katawa Shoujo*, *Doki Doki Literature Club!*, *Grisaia no Kajitsu*, *Rance* series, *Clannad*, *Little Busters!*, *Muv-Luv* series, and many others.
-
-### 🔊 Audio Tools
 
 - [vgmstream](https://github.com/vgmstream/vgmstream) - Audio playback library supporting 1000+ game audio formats including looping, multi-channel streams, and console-specific codecs. Works as a standalone player or Winamp/foobar2000 plugin. If a game audio file exists, vgmstream probably plays it.
 - [jpsxdec](https://github.com/m35/jpsxdec) - Cross-platform PlayStation 1 audio and video converter.
@@ -585,10 +590,15 @@ This list is for developers and modders working with such formats. It provides t
 - [qiling](https://github.com/qilingframework/qiling) - Advanced binary emulation framework. Emulates multi-platforms (Windows, macOS, Linux, Android, BSD, UEFI, DOS) and multi-architectures (x86, ARM, MIPS, RISC-V, PowerPC). Supports PE, Mach-O, ELF formats with fine-grain instrumentation, cross-architecture debugging, and dynamic hot patching.
 - [Pattern16](https://github.com/Dasaav-dsv/Pattern16) - Fastest x86-64 signature matching library. Optimized for reverse engineering with speeds up to 25 GB/s. Uses AVX1, SSE4.1, SSE2, CMOVE, BMI2, and BMI1. Header-only C++ library for pattern scanning in memory regions.
 - [Recaf](https://github.com/Col-E/Recaf) - Modern Java bytecode editor. Easy-to-use interface for editing Java bytecode with decompiler integration, built-in compiler, bytecode assembler, and support for standard Java and Android applications.
+- [jd-gui](https://github.com/java-decompiler/jd-gui) - A standalone graphical utility that decompile and displays Java source codes of .class files. Supports Drag and Drop and Zip/Jar files.
+- [bytecode-viewer](https://github.com/Konloch/bytecode-viewer) - A Java 8+ Jar & Android APK reverse engineering suite. Includes multiple decompilers (FernFlower, Procyon, CFR), bytecode assemblers, and a keyword search feature.
+
 - [iced](https://github.com/icedland/iced) - Blazing fast and correct x86/x64 disassembler, assembler, decoder, and encoder. Available for Rust, .NET, Java, Python, and Lua. Useful for reverse engineering game binaries.
 - [IDArling](https://github.com/IDArlingTeam/IDArling) - Collaborative reverse engineering plugin for IDA Pro and Hex-Rays. Enables multiple users to work on the same IDA database simultaneously.
 - [Reloaded.Hooks](https://github.com/Reloaded-Project/Reloaded.Hooks) - Advanced native function hooks for x86 and x64. High-performance hooking library for .NET with support for unit testing hooks. Used in Reloaded modding framework.
 - [Reloaded-II](https://github.com/Reloaded-Project/Reloaded-II) - Universal .NET Core powered modding framework for any native game (x86, x64). DLL injection based mod loader with mod management system, optional mod SDK, and extensive plugin support.
+- [dnSpy](https://github.com/dnSpy/dnSpy) - .NET debugger and assembly editor. Essential for inspecting and editing .NET game binaries (Unity games, etc.) even without source code. Supports decompilation to C#.
+
 - [ExeGag](https://github.com/efimandreev0/ExeGag) - Tool to edit game strings into compiled ELF files.
 - [binviz](https://github.com/VelocityRa/binviz) - Binary visualization tool for identifying patterns and structure in unknown files. Creates visual representations showing potential compression/encryption, structured data and padding at a glance. Helpful for spotting where assets begin/end in unstructured archives.
 - [JSC-PyDecrypt-Tool](https://github.com/bartlomiejduda/JSC-PyDecrypt-Tool) - Decrypts JSC (JavaScript Compiled) files from Cocos2d games. Requires valid encryption key extracted via Frida from running game instances.
@@ -606,6 +616,13 @@ This list is for developers and modders working with such formats. It provides t
 - [objdiff](https://github.com/encounter/objdiff) - Local diffing tool for decompilation projects.
 - [decomp-permuter](https://github.com/simonlindholm/decomp-permuter) - Randomly permute C files to better match a target binary.
 - [m2c](https://github.com/matt-kempster/m2c) - MIPS and PowerPC decompiler.
+- [PINCE](https://github.com/korcankaraokcu/PINCE) - GDB front-end/reverse engineering tool with a Cheat Engine-like interface for Linux.
+- [biodiff](https://github.com/8051Enthusiast/biodiff) - Hex diff viewer that uses alignment algorithms to show differences between binary files.
+- [hermes-dec](https://github.com/P1sec/hermes-dec) - Decompiler and disassembler for React Native Hermes bytecode (HBC).
+- [unluac](https://sourceforge.net/projects/unluac/) - A decompiler for Lua 5.1. Capability to decompile most Lua 5.1 binaries, including those with custom opcodes or modified headers found in various games.
+
+- [bitfield](https://github.com/wavedrom/bitfield) - Tool for rendering bit field diagrams from JSON descriptions, useful for documenting binary formats.
+- [Arm64Disassembler](https://github.com/neptuwunium/Arm64Disassembler) - Lightweight C# Arm64 disassembler library.
 - [vutrace](https://github.com/chaoticgd/vutrace) - PlayStation 2 vector unit tracing debugger.
 - [hlsldecompiler-rs](https://github.com/cohaereo/hlsldecompiler-rs) - Statically linked 3dmigoto Rust wrapper for HLSL shader decompilation.
 
@@ -660,6 +677,13 @@ This list is for developers and modders working with such formats. It provides t
 - [Murugo/Misc-Game-Research](https://github.com/Murugo/Misc-Game-Research) - Research artifacts and tools for various games.
   - Games: Vib-Ribbon (PS1), Gitaroo Man (PS2), Silent Hill 2 & 3 (PS2), Kingdom Hearts series (PS2), Rule of Rose (PS2), Musashi: Samurai Legend (PS2).
 - [game-extraction-toolbox](https://github.com/shawngmc/game-extraction-toolbox) - Python CLI tools for extracting ROMs from game rereleases and investigating game files.
+- [Smithbox](https://github.com/vawser/Smithbox) - Comprehensive modding toolkit for modern FromSoftware games.
+  - Games: Elden Ring, Elden Ring: Nightreign, Armored Core VI, Sekiro, Dark Souls 1-3, Bloodborne, Demon's Souls.
+  - Features: Map editor, model editor (FLVER), param editor, text editor, graphics param editor (GPARAM), material editor (MTD/MATBIN), texture viewer, file browser.
+- [FModel](https://fmodel.app/) - High-level package explorer and asset viewer for Unreal Engine 4 & 5, Unity, and other modern games. Supporting 1000+ games, it provides advanced visualization for textures, models (with animation support), audio, and specialized formats. Features include package bulk export, AES key management, and a robust search engine.
+- [dragon_noesis](https://github.com/Amaranth-3105/dragon_noesis) - Collection of Noesis plugins for various game formats.
+
+- [FileDetectionRuleSets](https://github.com/neptuwunium/FileDetectionRuleSets) - Rule sets for file format detection across various tools and platforms.
   - Supports extracting ROMs from collections like Capcom Arcade Stadium, Street Fighter 30th Anniversary Collection, Mega Man Legacy Collections, SNK 40th Anniversary Collection, and many more.
 - [save-decrypters](https://github.com/bucanero/save-decrypters) - Collection of custom save-game decrypters and checksum fixers for PS3, PSP, and PS4.
   - Games: GTA5, The Last of Us, Uncharted series, Metal Gear Solid series, Resident Evil series, Final Fantasy XIII series, and many more.
@@ -785,10 +809,10 @@ This list is for developers and modders working with such formats. It provides t
 - [UAssetAPI](https://github.com/atenfyr/UAssetAPI) - Low-level .NET library for reading and writing Unreal Engine game assets.
 - [UEFormat](https://github.com/h4lfheart/UEFormat) - Library for working with Unreal Engine file formats.
 - [UEAssetToolkit](https://github.com/Archengius/UEAssetToolkit) - Toolkit for extracting and modifying Unreal Engine assets.
-- [FModel](https://fmodel.app/) - Open-source software for data-mining UE4-5 games.
 - [CUE4Parse](https://github.com/FabianFG/CUE4Parse) - C# Parser for UE archives.
 - [UnrealExporter](https://github.com/luk-gg/UnrealExporter) - Batch file exporter.
 - [UE-Modding-Tools](https://github.com/Buckminsterfullerene02/UE-Modding-Tools) - Databank of generic UE modding tools.
+
 - [Snooper](https://github.com/FModel/Snooper/tree/opengl) - OpenGL based 3D viewer for cooked UE packages.
 - [ActorX Tools](https://www.moddb.com/groups/unreal-tournament-3-mod-developers/downloads/actorx-tools-for-maya-85-3dsmax-9) - The ActorX Tool is a plugin for various 3d creation packages allowing you to import skeletal meshes and animations in Unreal Engine games.
 - [ActorX Softimage Exporter](https://www.moddb.com/downloads/actorx-softimage-exporter) - ActorX plugin for Softimage to export skeletal meshes and animations to binary formats for Unreal Editor import. Install by extracting to \Application\Plugins.
@@ -807,6 +831,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Advanced Model Support SDK (Unreal Tournament)](https://www.moddb.com/mods/ut-skins-voices-mods-fixes/downloads/advanced-model-support-sdk) - Documentation for Unreal Tournament modellers creating plugin player models with Advanced Model Support v102 or v110. Also for modellers and programmers working on larger mods using skeletal models and/or Advanced Model Support code.
 - [Blender 2.49 Scripts for UT2004](https://www.moddb.com/games/unreal-tournament-2004/downloads/blender-249-scripts-for-ut2004) - Scripts with all PSA / PSK converters available IQM converter for use with noesis ASE export And other useful stuff
 - [February 2015 Unreal Development Kit (UDK)](https://www.moddb.com/engines/unreal-development-kit/downloads/february-2015-unreal-development-kit-udk) - Final version of the UDK by Epic (February 2015 release). Unreal Development Kit is the free edition of Unreal Engine 3.
+- [UEShaderMapExtractor](https://github.com/WistfulHopes/UEShaderMapExtractor) - Tool to extract and identify shaders from Unreal Engine material shadermaps.
+- [unreal_asset](https://github.com/atenfyr/unreal_asset) - Rust library for reading and writing Unreal Engine asset files (.uasset, .uexp).
+- [UE_Modding](https://github.com/Dmgvol/UE_Modding) - Comprehensive collection of guides and resources for modding Unreal Engine 4 and 5 games.
+
 
 ### CryEngine
 
@@ -822,6 +850,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Far Cry 3 Mod Tools](https://www.moddb.com/mods/far-cry-3-redux/downloads/far-cry-3-mod-tools) - Updated modding tools for Far Cry 3.
 - [FCMAP Tool v0.3B-0.5B (Far Cry)](https://www.moddb.com/mods/fcmap-tool/downloads/fcmap-tool-v03b-05b) - 💙 FCMAP is the first automated tool in the world of Far Cry 1 mapping and modding, written by me in Python 3.
 - [FCMAP Tool v1.0 (Far Cry)](https://www.moddb.com/mods/fcmap-tool/downloads/fcmap-tool-v05-10) - 💙 FCMAP is the first automated tool in the world of Far Cry 1 mapping and modding, written by me in Python 3.
+
+### Dagor Engine
+
+- [Dagor Engine](https://github.com/GaijinEntertainment/DagorEngine) - Open-source release of the Dagor Engine (War Thunder, Enlisted) including parts of the toolchain.
 
 ### Hedgehog Engine
 
@@ -1016,6 +1048,15 @@ This list is for developers and modders working with such formats. It provides t
 - [GR2Toolkit](https://github.com/REDxEYE/GR2Toolkit) - Toolkit for working with Granny 3D (GR2) model format files.
 
 ### Nintendo SDKs & Hardware
+
+- [Project_CTR](https://github.com/3DSGuy/Project_CTR) - A collection of custom Nintendo 3DS tools.
+  - [ctrtool](https://github.com/3DSGuy/Project_CTR/tree/master/ctrtool) - Read/extract 3DS file formats (CXI, CFA, CCI, CIA).
+  - [makerom](https://github.com/3DSGuy/Project_CTR/tree/master/makerom) - Create 3DS file formats.
+- [nxdumptool](https://github.com/DarkMatterCore/nxdumptool) - Generates XCI, NSP, HFS0, ExeFS, and RomFS dumps from Nintendo Switch gamecards and installed titles.
+- [HACGUI](https://github.com/shadowninja108/HACGUI) - A comprehensive interface for extracting Nintendo Switch contents, deriving keys, and mounting filesystems (NAND, RomFS, Save).
+- [nstool](https://github.com/shchmue/nstool) - General purpose tool to read and extract Nintendo Switch file formats (NSO, NRO, NCA, etc.).
+- [TegraRcmSmash](https://github.com/rajkosto/TegraRcmSmash) - C++ reimplementation of fusee-launcher for Nintendo Switch RCM payloads.
+
 
 *Formats and tools generic to Nintendo consoles or SDKs.*
 
@@ -1521,6 +1562,7 @@ This list is for developers and modders working with such formats. It provides t
 - [dark_souls_hkx](https://github.com/Danilodum/dark_souls_hkx) - Noesis plugins for Dark Souls HKX (Havok animation) format with extra root bone and root motion support.
 - [ESDLang](https://github.com/thefifthmatt/ESDLang) - Decompiler for ESD event script format.
 - [Zeditor](https://github.com/AinTunez/Zeditor) - Editor for FromSoftware's ESD (Event Script Data) files used in Souls games.
+- [ModEngine2](https://github.com/soulsmods/ModEngine2) - Rewrite of Mod Engine, a runtime code patching and injection library for FromSoftware games. Supports Dark Souls 3 and Elden Ring.
 - [Gibbed.DarkSouls](https://github.com/gibbed/Gibbed.DarkSouls) - Tools & code for use with Dark Souls.
 - [DS2Template](https://github.com/LordRadai/DS2Template) - Collection of 010 .bt templates specifically made for Dark Souls II
 - [ER.DATA.Tool](https://github.com/Ekey/ER.DATA.Tool) - Tool for extracting data archives from mobile game Earth Revival (Project Arrival).
@@ -1541,6 +1583,9 @@ This list is for developers and modders working with such formats. It provides t
 ### Game Freak
 
 *Pokémon games across various generations.*
+
+- [PKHeX](https://github.com/kwsch/PKHeX) - Universal save file editor for Pokémon games. Supports all generations from Gen I to the latest Switch titles. Includes tools for legitimacy checking, PID/IV generation, and more.
+
 
 #### Gen I & II
 
@@ -1595,6 +1640,11 @@ This list is for developers and modders working with such formats. It provides t
 - [poketcg (decomp)](https://github.com/pret/poketcg) - Matching decompilation of Pokémon TCG (100%).
 - [poketcg2 (decomp)](https://github.com/pret/poketcg2) - Matching decompilation of Pokémon TCG 2 (100%).
 - [pokeblack (decomp)](https://github.com/pokemodding/pokeblack) - Matching decompilation of Pokémon Black.
+
+#### Switch (Gen VIII+)
+
+- [pkNX](https://github.com/kwsch/pkNX) - All-in-one ROM editor and randomizer for Switch Pokémon games (Let's Go, Sword/Shield, Brilliant Diamond/Shining Pearl, Legends: Arceus, Scarlet/Violet).
+- [GFBMDL_Plugin](https://github.com/Ploaj/GFBMDL_Plugin) - Blender plugin for importing models and animations from Switch Pokémon games.
 
 ### Gameloft
 
@@ -1697,6 +1747,8 @@ This list is for developers and modders working with such formats. It provides t
 
 - [slpm86183 (decomp)](https://github.com/Erizur/slpm86183) - Matching decompilation of Pop'N Music CS1 (PS1).
 - [gust_stuff](https://github.com/eArmada8/gust_stuff) - Modding toolkit for G1M model files used in Gust games (Atelier series).
+- [gust_tools](https://github.com/TGE-Fr/gust_tools) - Utilities for archive management and data extraction for Gust PC games (Atelier, Blue Reflection, Nights of Azure).
+- [atelier_pak_decrypt](https://github.com/neptuwunium/atelier_pak_decrypt) - Small utility to decrypt GUST .pak archives.
 - [Project-G1M](https://github.com/Joschuka/Project-G1M) - Noesis plugin for importing G1M 3D model format used in Gust and Bandai Namco games.
 - [Cethleann](https://github.com/neptuwunium/Cethleann) - KTGL (Soft Engine) data exploration and research tool for Koei Tecmo games.
 
@@ -1808,6 +1860,14 @@ This list is for developers and modders working with such formats. It provides t
 - [Kid-Icarus-JSON-Parser](https://github.com/onepiecefreak3/Kid-Icarus-JSON-Parser) - JSON parser for Kid Icarus file formats.
 - [FEAT](https://github.com/SciresM/FEAT) - Fire Emblem Archive Tool for automatically extracting data from 3DS Fire Emblem archives.
 - [FEIF_ARC](https://github.com/GovanifY/FEIF_ARC) - Fire Emblem If ARC re/unpacker.
+
+#### Fire Emblem: Three Houses
+
+- [Throne-of-Knowledge](https://github.com/three-houses-research-team/Throne-of-Knowledge) - Central repository for Fire Emblem: Three Houses reversing and documentation.
+- [010-binary-templates (FE3H)](https://github.com/three-houses-research-team/010-binary-templates) - 010 Editor templates for Fire Emblem: Three Houses file formats (G1T, G1M, etc.).
+- [th-hack-tools](https://github.com/HeartHeroDE/th-hack-tools) - Toolkit for hacking and editing data in Fire Emblem: Three Houses.
+- [G1Tool](https://github.com/three-houses-research-team/G1Tool) - GUI for creating and editing Koei Tecmo G1T texture files.
+- [koeipy](https://github.com/neptuwunium/koeipy) - Python library for Koei Tecmo Engine file formats, specifically targeting Fire Emblem: Three Houses.
 
 #### Paper Mario 64
 
@@ -2215,6 +2275,8 @@ This list is for developers and modders working with such formats. It provides t
 - [AC-Audiobank-Dumper](https://github.com/Cuyler36/AC-Audiobank-Dumper/tree/main/AC%20Audiobank%20Dumper) - Tool for extracting audio from Animal Crossing audio banks.
 - [ACNESCreator](https://github.com/Cuyler36/ACNESCreator) - NES ROM editor for Animal Crossing.
 - [LibACNH](https://github.com/Slattz/LibACNH) - C++ library for parsing file formats and algorithms used by Animal Crossing: New Horizons.
+- [NHSE](https://github.com/vaxherd/NHSE) - Save editor for Animal Crossing: New Horizons.
+- [ACNH_Dumper](https://github.com/mrdude2478/ACNH_Dumper) - Tool to decompress and unpack the romfs for Animal Crossing: New Horizons.
 - [ACSE](https://github.com/Cuyler36/ACSE) - Animal Crossing Save Editor for GameCube.
 - [Animal-Crossing-Model-Editor](https://github.com/Cuyler36/Animal-Crossing-Model-Editor) - 3D model editor for Animal Crossing.
 - [Animal-Crossing-Texture-Editor](https://github.com/Cuyler36/Animal-Crossing-Texture-Editor) - Texture editing tool for Animal Crossing.
@@ -2326,6 +2388,8 @@ This list is for developers and modders working with such formats. It provides t
 - [marioparty4 (decomp)](https://github.com/mariopartyrd/marioparty4) - Matching decompilation of Mario Party 4.
 - [red-pro2 (decomp)](https://github.com/aboood40091/red-pro2) - Matching decompilation of New Super Mario Bros. U v1.3.0 (US).
 - [OdysseyDecomp (decomp)](https://github.com/MonsterDruide1/OdysseyDecomp) - Matching decompilation of Super Mario Odyssey for all versions.
+- [OdysseyEditor](https://github.com/Syroot/OdysseyEditor) - Level editor for Super Mario Odyssey and other Switch games using the same engine.
+- [SMM2CourseDecryptor](https://github.com/simontime/SMM2CourseDecryptor) - Decrypts course data from Super Mario Maker 2.
 - [smstrikers-decomp (decomp)](https://github.com/yannicksuter/smstrikers-decomp) - Matching decompilation of Super Mario Strikers.
 - [sms (decomp)](https://github.com/doldecomp/sms) - Matching decompilation of Super Mario Sunshine.
 - [smb-tools](https://github.com/PistonMiner/smb-tools) - Tools for Super Mario Bros. file formats.
@@ -2477,6 +2541,13 @@ This list is for developers and modders working with such formats. It provides t
 - [botw (decomp)](https://github.com/zeldaret/botw) - Matching decompilation of The Legend of Zelda: Breath of the Wild (Switch 1.5.0).
 - [las-decomp (decomp)](https://github.com/Owen-Splat/las-decomp) - Matching decompilation of Link's Awakening Switch (2019 remake).
 - [tp (decomp)](https://github.com/zeldaret/tp) - Matching decompilation of The Legend of Zelda: Twilight Princess.
+
+### Nexon
+
+#### MapleStory 2
+
+- [Maple2-Client](https://github.com/kOchirasu/Maple2-Client) - Research and tools for the MapleStory 2 client.
+- [MapleServer2](https://github.com/AlanMorel/MapleServer2) - MapleStory 2 server emulator with protocol research.
 
 ### Ntreev Soft
 
@@ -2867,6 +2938,31 @@ This list is for developers and modders working with such formats. It provides t
 - [ff16.utility.modloader](https://github.com/Nenkai/ff16.utility.modloader) - Final Fantasy XVI / 16 Mod Loader for Reloaded-II using FF16Tools.
 - [fftivc.utility.modloader](https://github.com/Nenkai/fftivc.utility.modloader) - FINAL FANTASY TACTICS - The Ivalice Chronicles Mod loader for Reloaded-II using FF16Tools.
 - [FaithFramework](https://github.com/Nenkai/FaithFramework) - Mod Framework for FFXVI using Reloaded-II. Features: ImGui API, Nex Runtime Interface API, Resource Manager, Camera Manager (WorldToScreen/Camera Pos).
+- [Lumina](https://github.com/alanbernstein/Lumina) - A .NET library for reading and interacting with game data files from Final Fantasy XIV.
+- [SaintCoinach](https://github.com/xivapi/SaintCoinach) - A .NET library for extracting and reading game assets from Final Fantasy XIV. Supports SqPack extraction, EXH/EXD data parsing, and texture conversion.
+- [Sapphire](https://github.com/SapphireServer/Sapphire) - Research-focused Final Fantasy XIV server emulator (targets version 3.3).
+- [sharlayan](https://github.com/FFXIVAPP/sharlayan) - Memory reading and scanning library for Final Fantasy XIV.
+- [machina](https://github.com/ravahn/machina) - Network capture library for realtime TCP/IP decoding and FFXIV data capture.
+- [aetherometer](https://github.com/ff14wed/aetherometer) - Framework for processing network-level information from Final Fantasy XIV via a GraphQL API.
+- [xiv-datamining](https://github.com/xivapi/ffxiv-datamining) - Repository for sharing Final Fantasy XIV datamining information, including CSV exports and documentation on various systems.
+  - See also [ffxiv-datamining-ko](https://github.com/Ra-Workspace/ffxiv-datamining-ko) for Korean version specific data.
+
+
+#### Final Fantasy XV
+
+- [FFXVTemplates](https://github.com/neptuwunium/FFXVTemplates) - 010 Editor templates for Final Fantasy XV files.
+
+#### Final Fantasy XIII
+
+- [Fang](https://github.com/neptuwunium/Fang) - Command-line extraction tool for the PC version of Lightning Returns: Final Fantasy XIII.
+
+#### Final Fantasy VIII
+
+- [FF8-Rinoa-s-Toolset](https://github.com/MaKiPL/FF8-Rinoa-s-Toolset) - All-in-one modding toolkit for Final Fantasy VIII. Supports ripping/viewing battle stages, world map segments, models, and texture mixing.
+- [Esthar](https://github.com/Albeoris/Esthar) - Resource editor for Final Fantasy VIII.
+- [ff8-garden](https://github.com/Keyaku/ff8-garden) - Final Fantasy VIII editor based on Qhimm's source. Supports decompiling data files, editing game text, and recompiling.
+- [maelstrom](https://github.com/sleepeybunney/maelstrom) - Seed randomizer for Final Fantasy VIII PC (Remastered and 2013 Steam release).
+- [FF8](https://github.com/marfsama/FF8) - Python tools for reading various Final Fantasy VIII file formats including TIM textures, MCH character models, and battle models.
 
 #### Chrono Cross
 
@@ -2904,7 +3000,9 @@ This list is for developers and modders working with such formats. It provides t
 #### Hitman
 
 - [re47 (decomp)](https://github.com/0danny/re47) - Matching decompilation of Hitman: Codename 47 (2000).
-- [HiTMAN Archive Manager](https://www.moddb.com/games/hitman-world-of-assassination/downloads/hitman-archive-manager) - Use this tool to install HiTMAN mods or extract the *.rpkg archives in which HiTMAN files are stored. Version 2: Now called Hitman Archive Manager
+- [HiTMAN Archive Manager](https://www.moddb.com/games/hitman-world-of-assassination/downloads/hitman-archive-manager) - Use this tool to install HiTMAN mods or extract the *.rpkg archives in which HiTMAN files are stored.
+- [ZHM5PatchBuilder](https://github.com/glacier-modding/ZHM5PatchBuilder) - Patch builder for Hitman 2 (2018) Rpkg archives.
+
 - [OpenKH](https://github.com/OpenKH/OpenKh) - Comprehensive reverse-engineering toolkit for Kingdom Hearts series. Handles MDLX/PMO models, PAM/ANB animations, TXA textures, map data, battle configs, and message files. Includes 50+ specialized editors and converters. Supports KH1, KH2, Birth by Sleep, Re:Coded, and Dream Drop Distance.
 - [AudioMog](https://github.com/Yoraiz0r/AudioMog) - Free all-in-one audio modding tool that allows users to unpack and repack supported game's audio binary files. Created for Kingdom Hearts III modding and works on other games such as Melody of Memory, Final Fantasy XV, and more.
 - [KH2-Worldpoint-Editor](https://github.com/Kite2810/KH2-Worldpoint-Editor) - Opens from Kingdom Hearts 2 00Worldpoint.bin and is able to edit the values there.
@@ -3077,6 +3175,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Wargaming (World of Warships)
 
+- [wowsdeob](https://github.com/landaire/wowsdeob) - Deobfuscator for World of Warships game scripts.
 - [yretenai/Akizuki](https://github.com/neptuwunium/Akizuki/tree/csharp) - World of Warships file format research project.
 
 ### Ubisoft
@@ -3275,14 +3374,27 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: .dcm (models), .dct (textures, exports as DDS).
   - Features: Extract vehicles, characters, and objects to OBJ format; preserve material data (excludes environment maps).
 
-### Blizzard Entertainment (World of Warcraft)
+### Blizzard Entertainment
+
+- [CascLib](https://github.com/ladislav-zezula/CascLib) - Open-source library for reading CASC (Content Addressable Storage Container) storages used in Blizzard games since 2014.
+
+#### World of Warcraft
 
 - [wow.export](https://github.com/Kruithne/wow.export) - Export toolkit for World of Warcraft models and textures.
+- [WoWExportTools](https://github.com/Marlamin/WoWExportTools) - Export World of Warcraft assets to portable formats.
 - [WoWDBDefs](https://github.com/wowdev/WoWDBDefs) - Client database definitions for World of Warcraft (DBD files for extracting game data).
 - [OWLib](https://github.com/overtools/OWLib) - DataTool program that lets you extract models, maps, and files from Overwatch.
 - [noclip.website (World of Warcraft - Vanilla, The Burning Crusade, Wrath of the Lich King)](https://github.com/magcius/noclip.website/tree/main/src/WorldOfWarcraft) - In-browser World of Warcraft (Vanilla) viewer.
 - [3DS/Obj MDX Converter](https://www.moddb.com/games/warcraft-iii/downloads/3ds-obj-mdx-converter)
-- [Starcraft Modding Tools](https://www.moddb.com/games/starcraft/downloads/starcraft-modding-tools) - This file contains the four Starcraft Mod Tools used in this tutorial. These files include: Arsenal III by King Arthur For the beginner or advanced custom designer, arsenal III is essential. Arsenal III edits StarCraft's primary data files, also known as DAT files. DAT files control all of the ba...
+
+#### StarCraft II & Heroes of the Storm
+
+- [s2protocol](https://github.com/Blizzard/s2protocol) - Python library to decode StarCraft II replay protocols.
+- [heroprotocol](https://github.com/Blizzard/heroprotocol) - Python library to decode Heroes of the Storm replays.
+- [m3addon](https://github.com/SC2Mapster/m3addon) - Blender addon to import and export .m3 files used in StarCraft II and Heroes of the Storm.
+- [M3_Import](https://github.com/CaptainD001/M3_Import) - 3ds Max importer for StarCraft II M3 models.
+- [Starcraft Modding Tools](https://www.moddb.com/games/starcraft/downloads/starcraft-modding-tools) - Collection of tools for editing StarCraft's primary data (DAT) files.
+
 - [WoW Model Viewer 5.0.7 (World of Warcraft)](https://www.moddb.com/games/world-of-warcraft/downloads/wow-model-viewer-5-0-7) - The WoW Model Viewer is a 3D model viewer for World of Warcraft. It uses the data files included with the game to display the models from the game: creatures, characters, spell effects, doodads, items, etc.
 - [Blizzard DATA unpacker (Warcraft: Orcs & Humans)](https://www.moddb.com/games/warcraft-orcs-humans/downloads/blizzard-data-unpacker) - Unpacker DATA archives from Blizzard games: - Warcraft: Orcs and Humans [1994] - Blackthorne [1994] - Lost Vikings [1993] (partially, there may be broken files) With source codes in C.
 
@@ -3292,7 +3404,7 @@ This list is for developers and modders working with such formats. It provides t
   - Tools: Level Edit (public editor), Free Dedicated Server (FDS) build.
   - Dependencies: DirectX (8+), RAD Bink, RAD Miles Sound System, NvDXTLib, Umbra, GameSpy, SafeDisk API, Microsoft Cab, RTPatch, Lightscape.
 - [C&C big extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/cc-big-extractor) - Tool for extracting files from Command & Conquer BIG archive files. Supports: Generals, Generals: Zero Hour, Tiberium Wars, Kane's Wrath, Red Alert 3, Red Alert 3: Uprising, Tiberian Twilight. Originally uploaded by bibber.
-- [Command & Conquer 3 Asset Extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/command-conquer-3-asset-extractor) - This program can extract asset files from C&C streams. This program can extract asset files from C&C streams. You can also extract models (W3DAnimation, W3DCollisionBox, W3DContainer, W3DHierarchy, W3DMesh), textures (OnDemandTexture, Texture) and sounds/music (AudioFile, AudioFileMP3Passthrough,...
+- [Command & Conquer 3 Asset Extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/command-conquer-3-asset-extractor) - This program can extract asset files from C&C streams. This program can extract asset files from C&C streams. You can also extract models (W3DAnimation, W3DCollisionBox, W3DContainer, W3DHierarchy, W3DMesh), textures (OnDemandTexture, Texture) and sounds/music (AudioFile, AudioFileMP3Passthrough,...)
 
 ### Mojang Studios
 
