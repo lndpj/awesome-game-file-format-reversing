@@ -2085,6 +2085,10 @@ This list is for developers and modders working with such formats. It provides t
 - [SBMI-Decomp (decomp)](https://github.com/Juanen100/SBMI-Decomp) - Matching decompilation of SpongeBob Moves In! (Android).
 - [BFBBJSPTool](https://github.com/igorseabra4/BFBBJSPTool) - JSP tool for SpongeBob SquarePants: Battle for Bikini Bottom.
 - [SpyroETDChunkTool](https://github.com/igorseabra4/SpyroETDChunkTool) - Chunk tool for Spyro: Enter the Dragonfly.
+- [HeavyModManager](https://github.com/igorseabra4/HeavyModManager) - Mod manager for GameCube and Wii games (Scooby-Doo, Spongebob, Incredibles).
+- [HiHoTool](https://github.com/igorseabra4/HiHoTool) - Tool and library for working with `.HO` archive files in Heavy Iron Studios games (Ratatouille, WALL-E, Up, SpongeBob's Truth or Square, Family Guy).
+- [HipHopTool](https://github.com/igorseabra4/HipHopTool) - Tool and library for working with `HIP/HOP` archive files in Heavy Iron Studios games (Scooby-Doo, SpongeBob BB, Incredibles).
+- [IndustrialParkHans](https://github.com/igorseabra4/IndustrialParkHans) - Save file editor for Heavy Iron Studios games (Scooby-Doo, SpongeBob BB, Incredibles) on GameCube, PS2, and Xbox.
 - [IndustrialPark](https://github.com/igorseabra4/IndustrialPark) - Viewer and editor for SpongeBob SquarePants: Battle for Bikini Bottom and Scooby-Doo games.
 - [noclip.website (SpongeBob Battle for Bikini Bottom)](https://github.com/magcius/noclip.website/tree/main/src/HeavyIron) - In-browser SpongeBob BFBB viewer.
 - [noclip.website (SpongeBob The Movie)](https://github.com/magcius/noclip.website/tree/main/src/HeavyIron) - In-browser SpongeBob The Movie viewer.
@@ -3179,6 +3183,10 @@ This list is for developers and modders working with such formats. It provides t
 - [Sonic-Colors-Set-Editor](https://github.com/thesupersonic16/Sonic-Colors-Set-Editor) - Set editor for Sonic Colors.
 - [HeroesCollisionTool](https://github.com/igorseabra4/HeroesCollisionTool) - Collision tool for Sonic Heroes.
 - [HeroesVisibilityEditor](https://github.com/igorseabra4/HeroesVisibilityEditor) - Visibility editor for Sonic Heroes.
+- [HeroesSPLTool](https://github.com/igorseabra4/HeroesSPLTool) - RenderWare Spline (`.SPL`) converter for Sonic Heroes.
+- [HeroesTweaker](https://github.com/igorseabra4/HeroesTweaker) - EXE editor for Sonic Heroes. Legacy tool, but useful for extracting splines from the executable.
+- [ShadowSETIDTBLEditor](https://github.com/igorseabra4/ShadowSETIDTBLEditor) - SET ID Table editor for Shadow the Hedgehog.
+- [ShadowSplineTool](https://github.com/igorseabra4/ShadowSplineTool) - Extracts `.PTP` splines from Shadow the Hedgehog.
 - [BBSonicDSTool](https://github.com/efimandreev0/BBSonicDSTool) - Tool for Sonic DS file formats.
 - [blue-sphere](https://github.com/scurest/blue-sphere) - Tool for Sonic 3 & Knuckles special stage files.
 - [Glitter](https://github.com/crash5band/Glitter) - Format library and editor application to open, modify, and resave GTE/GTM particle files for Sonic Generations.
