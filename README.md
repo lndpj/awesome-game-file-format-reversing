@@ -2577,6 +2577,7 @@ This list is for developers and modders working with such formats. It provides t
 - [bdat-rs](https://github.com/roccodev/bdat-rs) - Rust library for reading and writing BDAT format used in Xenoblade Chronicles games for data tables.
 - [xcnx-file-loader](https://github.com/roccodev/xcnx-file-loader) - File replacement mod for Switch Xenoblade games allowing custom files to be loaded from RomFS instead of ARD archives.
 - [ard-tools](https://github.com/roccodev/ard-tools) - Tools for working with ARD/ARH archive files from Switch Xenoblade Chronicles games. Includes ardain library, ard-tools CLI, and fuse-ard FUSE driver.
+- [xb3tool](https://github.com/vaxherd/xb3tool) - Tools and notes for researching/analyzing Xenoblade Chronicles 3 data. Supports BDAT database format and map generation.
 
 ### NanaOn-Sha
 
