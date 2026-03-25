@@ -93,11 +93,17 @@ This list is for developers and modders working with such formats. It provides t
   - [Black Element Software (Alpha Prime)](#black-element-software-alpha-prime)
   - [Bandai Namco](#bandai-namco)
   - [Electronic Arts](#electronic-arts)
+    - [Frostbite](#frostbite)
+      - [Battlefield Series](#battlefield-series)
+      - [Star Wars: Battlefront](#star-wars-battlefront)
+    - [RenderWare](#renderware-1)
+      - [Criterion Games](#criterion-games)
+    - [EAGL / Black Box / Other](#eagl--black-box--other)
+      - [Need for Speed Series](#need-for-speed-series)
+    - [SAGE / W3D](#sage--w3d)
+      - [Command \& Conquer Series](#command--conquer-series)
     - [SSX](#ssx)
-  - [Criterion Games](#criterion-games)
-  - [EA DICE](#ea-dice)
-    - [Battlefield Series](#battlefield-series)
-    - [Star Wars: Battlefront](#star-wars-battlefront)
+    - [General Tools](#general-tools)
   - [EgoSoft (X4)](#egosoft-x4)
   - [Capcom](#capcom)
     - [RE Engine](#re-engine)
@@ -136,8 +142,6 @@ This list is for developers and modders working with such formats. It provides t
   - [Dynamix / Sierra](#dynamix--sierra)
     - [Tribes Series](#tribes-series)
   - [DOKA Studios](#doka-studios)
-  - [EA Black Box](#ea-black-box)
-    - [Need for Speed Series](#need-for-speed-series)
   - [FromSoftware](#fromsoftware)
   - [Frictional Games (Amnesia, Soma)](#frictional-games-amnesia-soma)
   - [Gearbox Software](#gearbox-software)
@@ -357,6 +361,14 @@ This list is for developers and modders working with such formats. It provides t
   - [Visceral Games (Dead Space, Dante's Inferno)](#visceral-games-dead-space-dantes-inferno)
   - [Wargaming (World of Warships)](#wargaming-world-of-warships)
   - [Ubisoft](#ubisoft)
+    - [OpenSpace](#openspace-1)
+    - [Anvil / Scimitar](#anvil--scimitar)
+    - [LyN Engine](#lyn-engine)
+    - [Odin Engine](#odin-engine)
+    - [YETI Engine](#yeti-engine)
+    - [Unreal Engine](#unreal-engine-1)
+    - [CryEngine / Dunia](#cryengine--dunia)
+    - [Other Games / General](#other-games--general)
     - [Anno 1800](#anno-1800)
   - [Bethesda](#bethesda)
   - [2K Games / Firaxis Games](#2k-games--firaxis-games)
@@ -389,7 +401,6 @@ This list is for developers and modders working with such formats. It provides t
   - [Blizzard Entertainment](#blizzard-entertainment)
     - [World of Warcraft](#world-of-warcraft)
     - [StarCraft II \& Heroes of the Storm](#starcraft-ii--heroes-of-the-storm)
-  - [Westwood Studios / EA Los Angeles](#westwood-studios--ea-los-angeles)
   - [Mojang Studios](#mojang-studios)
   - [Grasshopper Manufacture (No More Heroes, Killer7)](#grasshopper-manufacture-no-more-heroes-killer7)
   - [Free Radical Design (TimeSplitters)](#free-radical-design-timesplitters)
@@ -1348,33 +1359,11 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Electronic Arts
 
-- [EA-Graphics-Manager](https://github.com/bartlomiejduda/EA-Graphics-Manager) - Handles FSH, SSH, XSH, PSH, GSH, ASH, QFS and MSH files from EA games. Parse, preview, and export/import graphics as DDS/PNG/BMP.
-  - Games: FIFA series (97, 2000, 06, 09, 14, Street, UEFA Euro 2004), Need For Speed series (1994, II, High Stakes, Hot Pursuit 2, Porsche Unleashed, Carbon, Undercover), Medal of Honor series (Frontline, Rising Sun, Vanguard, European Assault), Madden NFL (06, 08), NHL series (2001, 2002, 2005, 07), NBA Live 97, MVP Baseball/NCAA Baseball (2005, 2007), SSX series, Cricket (2005, 2007), Harry Potter (Chamber of Secrets, Quidditch World Cup), Def Jam: Fight For New York, Fight Night Round 3, GoldenEye, SimCity 4 Deluxe, Triple Play 2000, ReBoot, F.A. Premier League Football Manager 2000, EA Playground (Wii), and more across PS1, PS2, PSP, PC, Xbox, Wii, and Zeebo platforms.
-- [EA-Font-Manager](https://github.com/bartlomiejduda/EA-Font-Manager) - Handles EA font files (FFN, PFN, XFN, MFN, SFN formats). Preview, decode flags, edit character tables, and convert font images.
-  - Games: FIFA 97, Need for Speed series (2, High Stakes, Hot Pursuit, Undercover), NBA Live 06-07, SSX series, MVP Baseball 2005, Medal of Honor: European Assault,
-  NHL series, Def Jam: Fight for NY, Harry Potter and the Chamber of Secrets, The Sims, and more.
-- [EA-Loc-Manager](https://github.com/bartlomiejduda/EA-Loc-Manager) - Extract and import localization files (LOC format) from EA games. Supports UTF-8, UTF-16, and Latin-1 encodings.
-  - Games: Harry Potter and the Chamber of Secrets (PS2), Medal of Honor: European Assault (Xbox), SSX On Tour, SSX Tricky (PS2), NHL 07 (PSP), and more.
-
-#### SSX
-
-- [ssx (decomp)](https://github.com/ssxdecomp/ssx) - Matching decompilation of SSX (2000).
-- [ssx3 (decomp)](https://github.com/ssxdecomp/ssx3) - Matching decompilation of SSX 3 (2003).
-- [ssxdvd (decomp)](https://github.com/ssxdecomp/ssxdvd) - Matching decompilation of SSX Tricky (2001).
-
-### Criterion Games
-
-- [burnout-utils](https://github.com/adamdempsey/burnout-utils) - Utilities for the Burnout series.
-- [BurnoutParadiseAssetExtractor](https://github.com/Akernel/BurnoutParadiseAssetExtractor) - Asset extractor for Burnout Paradise.
-- [ChameleonEngineResearch](https://github.com/Akernel/ChameleonEngineResearch) - Research into the Chameleon Engine used in Criterion games.
-- [libbndl](https://github.com/Bo98/libbndl) - Library for reading BUNDLE archives used in Burnout Paradise.
-- [Burnout-Revenge-RenderWare-Model-Importer](https://github.com/aleXmodder/Burnout-Revenge-RenderWare-Model-Importer) - RenderWare model importer for Burnout Revenge.
-
-### EA DICE
+#### Frostbite
 
 - [Frostbite-Scripts](https://github.com/NicknineTheEagle/Frostbite-Scripts) - Scripts and tools for Frostbite engine games.
 
-#### Battlefield Series
+##### Battlefield Series
 
 - [BF1942 3dsmax 8 plugin](https://www.moddb.com/games/battlefield-1942/downloads/bf1942-3dsmax-8-plugin) - Plugin for 3DS Max 8 to import/export Battlefield 1942 meshes and animations. Extracted from the Battlefield Mod Development Toolkit 1.0B by DICE.
 - [BF2 Maya 4-6 Tools](https://www.moddb.com/games/battlefield-2/downloads/bf2-maya-4-6-tools) - Official Battlefield 2 tools for Maya 4-6 for exporting and importing game assets. Also included with the BF2 Editor but provided separately here.
@@ -1391,17 +1380,79 @@ This list is for developers and modders working with such formats. It provides t
 - [Dragon UnPACKer (Battlefield 2)](https://www.moddb.com/games/battlefield-2/downloads/dragon-unpacker) - Tool for viewing and extracting files from game archive formats (e.g., Quake 2 PAK files). Includes HyperRipper for scanning files for known formats.
   - Formats: MP3, OGG, WAV, AVI, TGA, BMP.
 
-#### Star Wars: Battlefront
+##### Star Wars: Battlefront
 
 - [StarWars Battlefront unpacker / decoder](https://www.moddb.com/games/star-wars-battlefront/downloads/starwars-battlefront-unpacker-decoder) - Custom toolset for unpacking and extracting Star Wars: Battlefront archives.
 - [Star Wars: Battlefront Modification Tools](https://www.moddb.com/games/star-wars-battlefront/downloads/star-wars-battlefront-modification-tools) - Official modding tools for creating levels in Star Wars: Battlefront. Originally from Game Front. Download subject to End User License Agreement terms.
 - [3D Object Converter (Star Wars Battlefront II)](https://www.moddb.com/games/star-wars-battlefront-ii/downloads/3d-object-converter) - Polygon-based 3D object file format converter supporting 440 file formats.
+
+#### RenderWare
+
+*See also [RenderWare](#renderware) for general engine tools.*
+
+##### Criterion Games
+
+- [burnout-utils](https://github.com/adamdempsey/burnout-utils) - Utilities for the Burnout series.
+- [BurnoutParadiseAssetExtractor](https://github.com/Akernel/BurnoutParadiseAssetExtractor) - Asset extractor for Burnout Paradise.
+- [ChameleonEngineResearch](https://github.com/Akernel/ChameleonEngineResearch) - Research into the Chameleon Engine used in Criterion games.
+- [libbndl](https://github.com/Bo98/libbndl) - Library for reading BUNDLE archives used in Burnout Paradise.
+- [Burnout-Revenge-RenderWare-Model-Importer](https://github.com/aleXmodder/Burnout-Revenge-RenderWare-Model-Importer) - RenderWare model importer for Burnout Revenge.
+
+#### EAGL / Black Box / Other
+
+- [Castaway (decomp)](https://github.com/HaydnTrigg/Castaway) - Matching decompilation of The Sims 2: Castaway.
+
+##### Need for Speed Series
+
+- [Binary](https://github.com/NFSCO/Binary) - Tool for editing Black Box Need for Speed binary .BIN, .BUN, .LZC files.
+- [Icebreaker](https://github.com/R-033/icebreaker) - NIS (NFS Most Wanted cutscene files) editing tool.
+- [MAD x VP6 x MPC x MPV x WMV Compiler](https://github.com/bluesky-dev12/MAD-x-VP6-x-MPC-x-MPV-x-WMV-Compiler) - Compilation of tools for compiling WMV, MAD, VP6, MPC and MPV video formats for Black Box games.
+- [NFS.BIN.Tool](https://github.com/Ekey/NFS.BIN.Tool) - Tool for extracting ZZDATA archives from NFS console games.
+- [NFS Carbon PDFData Compiler](https://github.com/bluesky-dev12/PFDataCompiler) - Helper to convert music to NFS Carbon format.
+- [NFS SPEECHTOOL](https://github.com/TheUnpunished/SpeechTool) - Speech audio files editor for NFS ProStreet, Undercover & World.
+- [NFS TMXTOOL](https://github.com/TheUnpunished/tmxtool) - TMX audio files encoder for NFS ProStreet, Undercover & World.
+- [UCGT](https://github.com/NI240SX/UCGT) - NFS Undercover geometry editor (file compiler/decompiler).
+- [Vivianne](https://github.com/TheXDS/Vivianne) - NFS 3/4 All-in-one VIV and FSH/QFS editor that aims to provide you with tools to edit textures, car performance and fedata files.
+- [noclip.website (Need for Speed: Most Wanted)](https://github.com/magcius/noclip.website/tree/main/src/NeedForSpeedMostWanted) - In-browser Need for Speed: Most Wanted viewer.
+
+#### SAGE / W3D
+
+##### Command & Conquer Series
+
+- [Command & Conquer: Renegade (source release)](https://github.com/electronicarts/CnC_Renegade) - Official source code release for C&C Renegade and tools (archived; GPLv3 with additional terms).
+  - Tools: Level Edit (public editor), Free Dedicated Server (FDS) build.
+  - Dependencies: DirectX (8+), RAD Bink, RAD Miles Sound System, NvDXTLib, Umbra, GameSpy, SafeDisk API, Microsoft Cab, RTPatch, Lightscape.
+- [C&C big extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/cc-big-extractor) - Tool for extracting files from Command & Conquer BIG archive files. Supports: Generals, Generals: Zero Hour, Tiberium Wars, Kane's Wrath, Red Alert 3, Red Alert 3: Uprising, Tiberian Twilight. Originally uploaded by bibber.
+- [Command & Conquer 3 Asset Extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/command-conquer-3-asset-extractor) - This program can extract asset files from C&C streams. This program can extract asset files from C&C streams. You can also extract models (W3DAnimation, W3DCollisionBox, W3DContainer, W3DHierarchy, W3DMesh), textures (OnDemandTexture, Texture) and sounds/music (AudioFile, AudioFileMP3Passthrough,...)
+- [C&C: Renegade Official Modding Tools](https://www.moddb.com/games/cc-renegade/downloads/cc-renegade-official-modding-tools) - Official set of modding tools for Command & Conquer: Renegade.
+- [CnC Renegade Tools](https://www.moddb.com/games/cc-renegade/downloads/cnc-renegade-tools) - CnC Renegade Tools by Westwood to help modders in making mods for Renegade.
+- [Final Big (C&C: Generals)](https://www.moddb.com/games/cc-generals/downloads/final-big) - No further information avaliable.
+- [Final Big 3 (C&C: Generals)](https://www.moddb.com/games/cc-generals/downloads/final-big-3) - Version 0.2 released March 5th, 2003.
+- [Gmax+RenX+Renegade Public Tools (C&C: Generals Zero Hour)](https://www.moddb.com/games/cc-generals-zero-hour/downloads/gmaxrenxrenegade-public-tools) - This contains 3 modelling tools for editing C&C Generals and Renegade.
+
+#### SSX
+
+- [ssx (decomp)](https://github.com/ssxdecomp/ssx) - Matching decompilation of SSX (2000).
+- [ssx3 (decomp)](https://github.com/ssxdecomp/ssx3) - Matching decompilation of SSX 3 (2003).
+- [ssxdvd (decomp)](https://github.com/ssxdecomp/ssxdvd) - Matching decompilation of SSX Tricky (2001).
+
+#### General Tools
+
+- [EA-Graphics-Manager](https://github.com/bartlomiejduda/EA-Graphics-Manager) - Handles FSH, SSH, XSH, PSH, GSH, ASH, QFS and MSH files from EA games. Parse, preview, and export/import graphics as DDS/PNG/BMP.
+  - Games: FIFA series (97, 2000, 06, 09, 14, Street, UEFA Euro 2004), Need For Speed series (1994, II, High Stakes, Hot Pursuit 2, Porsche Unleashed, Carbon, Undercover), Medal of Honor series (Frontline, Rising Sun, Vanguard, European Assault), Madden NFL (06, 08), NHL series (2001, 2002, 2005, 07), NBA Live 97, MVP Baseball/NCAA Baseball (2005, 2007), SSX series, Cricket (2005, 2007), Harry Potter (Chamber of Secrets, Quidditch World Cup), Def Jam: Fight For New York, Fight Night Round 3, GoldenEye, SimCity 4 Deluxe, Triple Play 2000, ReBoot, F.A. Premier League Football Manager 2000, EA Playground (Wii), and more across PS1, PS2, PSP, PC, Xbox, Wii, and Zeebo platforms.
+- [EA-Font-Manager](https://github.com/bartlomiejduda/EA-Font-Manager) - Handles EA font files (FFN, PFN, XFN, MFN, SFN formats). Preview, decode flags, edit character tables, and convert font images.
+  - Games: FIFA 97, Need for Speed series (2, High Stakes, Hot Pursuit, Undercover), NBA Live 06-07, SSX series, MVP Baseball 2005, Medal of Honor: European Assault,
+  NHL series, Def Jam: Fight for NY, Harry Potter and the Chamber of Secrets, The Sims, and more.
+- [EA-Loc-Manager](https://github.com/bartlomiejduda/EA-Loc-Manager) - Extract and import localization files (LOC format) from EA games. Supports UTF-8, UTF-16, and Latin-1 encodings.
+  - Games: Harry Potter and the Chamber of Secrets (PS2), Medal of Honor: European Assault (Xbox), SSX On Tour, SSX Tricky (PS2), NHL 07 (PSP), and more.
 
 ### EgoSoft (X4)
 
 - [X4Tools](https://github.com/REDxEYE/X4Tools) - Standalone plugin for importing and exporting assets from X4 game.
 
 ### Capcom
+
+*Many titles use [Havok](#havok) or [CRI](#cri) middleware alongside proprietary engines.*
 
 #### RE Engine
 
@@ -1582,22 +1633,6 @@ This list is for developers and modders working with such formats. It provides t
 
 - [reSL (decomp)](https://github.com/konovalov-aleks/reSL) - Matching decompilation of ShortLine v1.1.
 
-### EA Black Box
-
-- [Castaway (decomp)](https://github.com/HaydnTrigg/Castaway) - Matching decompilation of The Sims 2: Castaway.
-
-#### Need for Speed Series
-
-- [Binary](https://github.com/NFSCO/Binary) - Tool for editing Black Box Need for Speed binary .BIN, .BUN, .LZC files.
-- [Icebreaker](https://github.com/R-033/icebreaker) - NIS (NFS Most Wanted cutscene files) editing tool.
-- [MAD x VP6 x MPC x MPV x WMV Compiler](https://github.com/bluesky-dev12/MAD-x-VP6-x-MPC-x-MPV-x-WMV-Compiler) - Compilation of tools for compiling WMV, MAD, VP6, MPC and MPV video formats for Black Box games.
-- [NFS.BIN.Tool](https://github.com/Ekey/NFS.BIN.Tool) - Tool for extracting ZZDATA archives from NFS console games.
-- [NFS Carbon PDFData Compiler](https://github.com/bluesky-dev12/PFDataCompiler) - Helper to convert music to NFS Carbon format.
-- [NFS SPEECHTOOL](https://github.com/TheUnpunished/SpeechTool) - Speech audio files editor for NFS ProStreet, Undercover & World.
-- [NFS TMXTOOL](https://github.com/TheUnpunished/tmxtool) - TMX audio files encoder for NFS ProStreet, Undercover & World.
-- [UCGT](https://github.com/NI240SX/UCGT) - NFS Undercover geometry editor (file compiler/decompiler).
-- [Vivianne](https://github.com/TheXDS/Vivianne) - NFS 3/4 All-in-one VIV and FSH/QFS editor that aims to provide you with tools to edit textures, car performance and fedata files.
-- [noclip.website (Need for Speed: Most Wanted)](https://github.com/magcius/noclip.website/tree/main/src/NeedForSpeedMostWanted) - In-browser Need for Speed: Most Wanted viewer.
 
 ### FromSoftware
 
@@ -1651,6 +1686,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Game Freak
 
 *Pokémon games across various generations.*
+*See also [Sappy (GBA Audio)](#sappy-gba-audio) for GBA-era Pokémon audio tools.*
 
 - [PKHeX](https://github.com/kwsch/PKHeX) - Universal save file editor for Pokémon games. Supports all generations from Gen I to the latest Switch titles. Includes tools for legitimacy checking, PID/IV generation, and more.
 
@@ -2434,7 +2470,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Super Mario 64
 
-*See also [Fast3d/F3dex](#fast3df3dex-n64).*
+*See also [Fast3d/F3dex](#fast3df3dex-n64) for N64 graphics middleware tools.*
 
 - [Quad64](https://github.com/DavidSM64/Quad64) - Level editor for Super Mario 64.
 - [MeltyTool (SuperMario64)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/SuperMario64) - Super Mario 64 format viewer/exporter.
@@ -2502,7 +2538,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Zelda
 
-*See also [JSYSTEM](#jsystem-gamecubewii) for Wind Waker and Twilight Princess.*
+*See also [JSYSTEM](#jsystem-gamecubewii) for Wind Waker and Twilight Princess, and [Fast3d/F3dex](#fast3df3dex-n64) for Ocarina of Time and Majora's Mask.*
 
 - [CloudModding OoT Wiki](https://wiki.cloudmodding.com/oot/Main_Page) - Comprehensive technical wiki for Ocarina of Time with 331+ articles covering actors, objects, scenes, file formats, animations, cutscenes, audio, textures, collision, decompilation project, and modding guides.
 - [WindEditor](https://github.com/Sage-of-Mirrors/WindEditor) - Map viewer/editor for The Legend of Zelda: The Wind Waker.
@@ -3024,6 +3060,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Square Enix
 
+*Many titles use [CRI](#cri) or [Havok](#havok) middleware.*
+
 #### Final Fantasy
 
 - [FFCC-Decomp (decomp)](https://github.com/zcanann/FFCC-Decomp) - Matching decompilation of Final Fantasy Crystal Chronicles.
@@ -3280,32 +3318,58 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Ubisoft
 
-- [rgh (decomp)](https://github.com/rghdecomp/rgh) - Matching decompilation of Rabbids Go Home (2009).
+#### OpenSpace
+
 - [Rayman2Lib](https://github.com/szymski/Rayman2Lib) - Various tools for Rayman 2 modding and content extraction.
 - [Rayman2FunBox](https://github.com/rtsonneveld/Rayman2FunBox) - Pack of a few fun mods for Rayman 2 on PC using memory editing, notably the First Person Mod.
 - [raymap](https://github.com/byvar/raymap) - Map viewer/editor for OpenSpace games including Rayman 2, Rayman 3, Rayman Arena, and Tonic Trouble. Supports multiple platforms (PC, PS1, PS2, N64, GameCube, Xbox, iOS, DS, 3DS). Web version available at raym.app.
 - [Rayman-Legion](https://github.com/agostini-matteo/Rayman-Legion) - Rayman modding and research tools.
 - [Rayman3Extract](https://github.com/airblade42/Rayman3Extract) - Extraction tools for Rayman 3.
 - [Rayman-2-Unity](https://github.com/Ackenciel/Rayman-2-Unity) - Rayman 2 Unity port research and assets.
-
-- [GangstarVegasTextTool](https://github.com/efimandreev0/GangstarVegasTextTool) - Tool to work with ".lng" archives from Gangstar Vegas games on any platforms.
-- [Jormungandr](https://github.com/neptuwunium/Jormungandr) - Anvil Engine research and tools for Ubisoft's Anvil Engine (Assassin's Creed series).
-- [Ubitunedec](https://github.com/ldeon/Ubitunedec) - Program for decoding and exporting .SPK audio files found in Ubisoft game .dat files. Can play back and decode sound and music encoded into the game files.
-- [Ray1Editor](https://github.com/RayCarrot/Ray1Editor) - 2D game editor derived from Ray1Map for modifying maps in Rayman 1 games. Supports Rayman 1 PS1, PC (multiple versions), Educational, Designer, by his Fans, and 60 Levels versions.
 - [Rayman-2-Research](https://github.com/ambrop7/Rayman-2-Research) - Comprehensive research into Rayman 2: The Great Escape.
 - [Rayman-2-Tools](https://github.com/ambrop7/Rayman-2-Tools) - Tools for Rayman 2 content extraction and manipulation.
 - [Rayman-Mobile-Tools](https://github.com/ambrop7/Rayman-Mobile-Tools) - Tools for Rayman mobile games.
-- [ubisoft-archives](https://github.com/ambrop7/ubisoft-archives) - Research into various Ubisoft archive formats.
 - [Rayman-2-PS1-Reversed](https://github.com/Andidub/Rayman-2-PS1-Reversed) - Reverse engineering project for the PS1 version of Rayman 2.
 - [Rayman-2-Modding-Tools](https://github.com/AllisonBozeman/Rayman-2-Modding-Tools) - Collection of modding tools for Rayman 2.
-- [CyArchiveTool](https://github.com/Surihix/CyArchiveTool) - Tool to extract and repack the .pack archive files from the PC version of the game Zone of Enders 2 MARS.
+
+#### Anvil / Scimitar
+
+- [Jormungandr](https://github.com/neptuwunium/Jormungandr) - Anvil Engine research and tools for Ubisoft's Anvil Engine (Assassin's Creed series).
+- [.forge extractor/replacer by Turfster (Assassin's Creed)](https://www.moddb.com/mods/aci-texmod-clothes-mod/downloads/forge-extractorreplacer-by-turfster) - Data/files extractor for Assassin's Creed and Assassin's Creed II and some other games using Scimitar engine. It's also capable of replacing archived files, including textures. Its additional plugins are already installed. The program is made by Turfster and it belongs to him (and the full credit...
+
+#### LyN Engine
+
+- [rgh (decomp)](https://github.com/rghdecomp/rgh) - Matching decompilation of Rabbids Go Home (2009).
+
+#### Odin Engine
+
 - [SabTool](https://github.com/BoBoBaSs84/SabTool) - CLI tool for managing files for The Saboteur.
-- [FCI.FAT.Tool](https://github.com/Ekey/FCI.FAT.Tool) - Tool for extracting FAT/DAT archives from Far Cry Instincts.
+
+#### YETI Engine
+
 - [Hawx Model Tool 1.04 (Tom Clancy's H.A.W.X.)](https://www.moddb.com/games/tom-clancys-hawx/downloads/hawx-model-tool-104) - The Original Hawx Modding tool, and the most asked for. This lets you modify the models, All the models in Tom Clancy's hawx. Made by lotsbiss
+
+#### Unreal Engine
+
+*See also [Unreal Engine](#unreal-engine) for general engine tools.*
+
 - [Complete UMP40 Source Code and Assets (Tom Clancy's Rainbow Six 3: Raven Shield)](https://www.moddb.com/mods/raven-shield-software-development-kit/downloads/complete-ump40-source-code-and-assets) - All the source code, textures, and models for Twi's custom UMP40 submachine gun. Great for learning to make custom guns!
 - [Damage Triggers - mapping tool (Tom Clancy's Rainbow Six 3: Raven Shield)](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/damage-triggers-mapping-tool) - Mappers can use this simple tool to add damage ability to their triggers. Set it to kill players or tangos nearby, or to damage objects in your map. SOURCE CODE INCLUDED.
 - [Flashlights for enemies - mapping tool (Tom Clancy's Rainbow Six 3: Raven Shield)](https://www.moddb.com/games/tom-clancys-rainbow-six-3-raven-shield/downloads/flashlights-for-enemies-mapping-tool) - Mappers can use this simple tool to give flashlights to tangos in their nighttime maps. Flashlights work in singleplayer and multiplayer.
-- [.forge extractor/replacer by Turfster (Assassin's Creed)](https://www.moddb.com/mods/aci-texmod-clothes-mod/downloads/forge-extractorreplacer-by-turfster) - Data/files extractor for Assassin's Creed and Assassin's Creed II and some other games using Scimitar engine. It's also capable of replacing archived files, including textures. Its additional plugins are already installed. The program is made by Turfster and it belongs to him (and the full credit...
+
+#### CryEngine / Dunia
+
+*See also [CryEngine](#cryengine) for general engine tools.*
+
+- [FCI.FAT.Tool](https://github.com/Ekey/FCI.FAT.Tool) - Tool for extracting FAT/DAT archives from Far Cry Instincts.
+
+#### Other Games / General
+
+- [Ubitunedec](https://github.com/ldeon/Ubitunedec) - Program for decoding and exporting .SPK audio files found in Ubisoft game .dat files. Can play back and decode sound and music encoded into the game files.
+- [ubisoft-archives](https://github.com/ambrop7/ubisoft-archives) - Research into various Ubisoft archive formats.
+- [Ray1Editor](https://github.com/RayCarrot/Ray1Editor) - 2D game editor derived from Ray1Map for modifying maps in Rayman 1 games. Supports Rayman 1 PS1, PC (multiple versions), Educational, Designer, by his Fans, and 60 Levels versions.
+- [GangstarVegasTextTool](https://github.com/efimandreev0/GangstarVegasTextTool) - Tool to work with ".lng" archives from Gangstar Vegas games on any platforms.
+- [CyArchiveTool](https://github.com/Surihix/CyArchiveTool) - Tool to extract and repack the .pack archive files from the PC version of the game Zone of Enders 2 MARS.
 
 #### Anno 1800
 
@@ -3508,13 +3572,6 @@ This list is for developers and modders working with such formats. It provides t
 - [WoW Model Viewer 5.0.7 (World of Warcraft)](https://www.moddb.com/games/world-of-warcraft/downloads/wow-model-viewer-5-0-7) - The WoW Model Viewer is a 3D model viewer for World of Warcraft. It uses the data files included with the game to display the models from the game: creatures, characters, spell effects, doodads, items, etc.
 - [Blizzard DATA unpacker (Warcraft: Orcs & Humans)](https://www.moddb.com/games/warcraft-orcs-humans/downloads/blizzard-data-unpacker) - Unpacker DATA archives from Blizzard games: - Warcraft: Orcs and Humans [1994] - Blackthorne [1994] - Lost Vikings [1993] (partially, there may be broken files) With source codes in C.
 
-### Westwood Studios / EA Los Angeles
-
-- [Command & Conquer: Renegade (source release)](https://github.com/electronicarts/CnC_Renegade) - Official source code release for C&C Renegade and tools (archived; GPLv3 with additional terms).
-  - Tools: Level Edit (public editor), Free Dedicated Server (FDS) build.
-  - Dependencies: DirectX (8+), RAD Bink, RAD Miles Sound System, NvDXTLib, Umbra, GameSpy, SafeDisk API, Microsoft Cab, RTPatch, Lightscape.
-- [C&C big extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/cc-big-extractor) - Tool for extracting files from Command & Conquer BIG archive files. Supports: Generals, Generals: Zero Hour, Tiberium Wars, Kane's Wrath, Red Alert 3, Red Alert 3: Uprising, Tiberian Twilight. Originally uploaded by bibber.
-- [Command & Conquer 3 Asset Extractor](https://www.moddb.com/groups/tiberium-essence-fans/downloads/command-conquer-3-asset-extractor) - This program can extract asset files from C&C streams. This program can extract asset files from C&C streams. You can also extract models (W3DAnimation, W3DCollisionBox, W3DContainer, W3DHierarchy, W3DMesh), textures (OnDemandTexture, Texture) and sounds/music (AudioFile, AudioFileMP3Passthrough,...)
 
 ### Mojang Studios
 
@@ -3562,11 +3619,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [binunpack](https://github.com/shibbo/binunpack) - Program for unpacking the BIN archives in DragonBall: Revenge of King Piccolo, written in Python 3.
 - [DBFModToolCollection](https://github.com/Tiniifan/DBFModToolCollection) - Collection of tools to simplify modding on Dragon Ball Fusion. Includes utilities for working with game files and archives.
-- [C&C: Renegade Official Modding Tools](https://www.moddb.com/games/cc-renegade/downloads/cc-renegade-official-modding-tools) - Official set of modding tools for Command & Conquer: Renegade.
-- [CnC Renegade Tools](https://www.moddb.com/games/cc-renegade/downloads/cnc-renegade-tools) - CnC Renegade Tools by Westwood to help modders in making mods for Renegade.
-- [Final Big (C&C: Generals)](https://www.moddb.com/games/cc-generals/downloads/final-big) - No further information avaliable.
-- [Final Big 3 (C&C: Generals)](https://www.moddb.com/games/cc-generals/downloads/final-big-3) - Version 0.2 released March 5th, 2003.
-- [Gmax+RenX+Renegade Public Tools (C&C: Generals Zero Hour)](https://www.moddb.com/games/cc-generals-zero-hour/downloads/gmaxrenxrenegade-public-tools) - This contains 3 modelling tools for editing C&C Generals and Renegade.
+
 
 ## 🔗 Related Lists
 
