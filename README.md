@@ -34,6 +34,7 @@ This list is for developers and modders working with such formats. It provides t
 - [🛠️ General Tools](#️-general-tools)
   - [🎨 Asset Viewers \& Converters](#-asset-viewers--converters)
   - [📦 Archive Extractors](#-archive-extractors)
+  - [🔊 Audio Tools](#-audio-tools)
   - [🌐 Translation \& Localization](#-translation--localization)
   - [🔍 Hex Editors](#-hex-editors)
   - [🔬 Format Analysis \& Reverse Engineering](#-format-analysis--reverse-engineering)
@@ -480,6 +481,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Noesis Plugins (Zheneq)](https://github.com/Zheneq/Noesis-Plugins) - Community plugins for Megaman X8 (PC), Fatal Frame 4 (Wii), Star Wars: The Force Unleashed (Wii), Planet 51 (Wii), Silent Hill: Shattered Memories (Wii), Fire Emblem (Wii), MT Framework (3DS).
   - [noesis_dukemdx](https://github.com/DaZombieKiller/noesis_dukemdx) - Noesis plugin for Duke Nukem Extended Model (MDX) format.
   - [noesis_iqe](https://github.com/viciious/noesis_iqe) - Noesis plugin for exporting models to Inter-Quake Export (IQE) format.
+- [The Spriters Toolkit](https://tools.spriters-resource.com) - Web-based suite of asset management, validation, and conversion tools by the creators of The VG Resource.
+  - Formats: PNG, GLB, OBJ, FBX, DAE, ZIP.
+  - Features: Sprite sheet creator, sprite splitter, 3D model viewer, asset package analyzers (sprites, models, audio).
 - [TexViewer](https://github.com/Puxtril/TexViewer) - Tool to help discover unknown texture formats.
 - [ImageHeat](https://github.com/bartlomiejduda/ImageHeat) - Texture viewing tool for encoded textures.
   - Formats: RGBA8888, RGB888, RGB565, DXT1, ASTC, indexed formats (PAL4/8/16).
@@ -519,6 +523,9 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: .zip, .tar (including compressed variants), .rar (read-only), .7z (read-only), brotli, bzip2, gzip, lz4, lzip, minlz, snappy/S2, xz, zlib, zstandard.
   - Features: Stream-oriented APIs, automatic format identification, password-protected 7-Zip/RAR support, insert into .tar/.zip without recreating, multithreaded Gzip, DeepFS for traversing archives transparently.
 - [GARbro](https://github.com/morkt/GARbro) - Visual novels resource browser and extractor supporting many formats.
+
+### 🔊 Audio Tools
+
 
 - [vgmstream](https://github.com/vgmstream/vgmstream) - Audio playback library supporting 1000+ game audio formats including looping, multi-channel streams, and console-specific codecs. Works as a standalone player or Winamp/foobar2000 plugin. If a game audio file exists, vgmstream probably plays it.
 - [jpsxdec](https://github.com/m35/jpsxdec) - Cross-platform PlayStation 1 audio and video converter.
