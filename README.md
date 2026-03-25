@@ -444,8 +444,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Psy-Q SDK Documentation](https://psx.arthus.net/sdk/Psy-Q/DOCS/) - Official PlayStation SDK documentation archive. Includes file format references, development guides, and API documentation.
   - [File Format Reference](https://psx.arthus.net/sdk/Psy-Q/DOCS/Devrefs/Filefrmt.pdf) - Official Psy-Q SDK file format documentation.
-- [PSX-SPX Console Dev](https://psx-spx.consoledev.net/) - Comprehensive PlayStation technical documentation and reference. Covers CD-ROM file formats, hardware specifications, BIOS functions, and development resources.
+- [PSX-SPX Console Dev](https://psx-spx.consoledev.net/) - Comprehensive PlayStation technical documentation and reference. Covers hardware specifications, BIOS functions, and development resources.
   - [CD-ROM File Formats](https://psx-spx.consoledev.net/cdromfileformats/) - Detailed documentation on PlayStation CD-ROM file formats and structures.
+- [rom-properties](https://github.com/GerbilSoft/rom-properties) - Shell extension for Windows and Linux that shows information about ROM and disc image files. Supports over 500 game and system file formats across dozens of consoles and handhelds.
+  - Features: Metadata viewing (title, publisher, region), icon/boxart extraction, save game management, and explorer integration.
 
 ### Game-Specific Wikis
 
@@ -506,7 +508,7 @@ This list is for developers and modders working with such formats. It provides t
   - Features: Sprite sheet creator, sprite splitter, 3D model viewer, asset package analyzers (sprites, models, audio).
 - [blender-ps1-importer](https://github.com/alperon/blender-ps1-importer) - Blender importer for PlayStation 1 models and textures.
 - [TexViewer](https://github.com/Puxtril/TexViewer) - Tool to help discover unknown texture formats.
-
+- [tmd](https://github.com/roblouie/tmd) - JavaScript application for viewing PlayStation 1 TMD models in the browser. Features orbit controls, wireframe mode, and texture support.
 - [ImageHeat](https://github.com/bartlomiejduda/ImageHeat) - Texture viewing tool for encoded textures.
   - Formats: RGBA8888, RGB888, RGB565, DXT1, ASTC, indexed formats (PAL4/8/16).
   - Platforms: PSP, PS2, PS3, PS4, Xbox (unswizzling support).
@@ -565,6 +567,8 @@ This list is for developers and modders working with such formats. It provides t
 - [wwise-audio-tools](https://github.com/WolvenKit/wwise-audio-tools) - Static and dynamic library plus command-line tool for converting Wwise WEM files to OGG format. Modern replacement for ww2ogg and revorb with easier integration.
 - [ww2ogg](https://github.com/hcs64/ww2ogg) - Converts Wwise RIFF/RIFX Vorbis audio (.wem files) to standard Ogg Vorbis format. Command-line tool with packed codebook support for various encoding variants. Note: vgmstream is recommended for playback, but ww2ogg is useful when Ogg Vorbis output is specifically required.
 - [atrac9j](https://github.com/ShadelessFox/atrac9j) - Java port of the LibAtrac9 library for decoding ATRAC9 audio format used in PlayStation games.
+- [manatools](https://github.com/dakrk/manatools) - Tools for working with Dreamcast audio and music formats (MLT, MPB, MSB).
+- [LoopingAudioConverter](https://github.com/libertyernie/LoopingAudioConverter) - Tool for converting many game audio formats to looping WAV, OGG, or FLAC files. Supports many console formats through VGAudio and vgmstream.
 - [BassoonTracker](https://github.com/steffest/BassoonTracker) - Web-based old-school Amiga music tracker in plain JavaScript. Plays and edits Amiga Mod files and FastTracker XM files.
 - [DSP2BRSTM](https://github.com/onepiecefreak3/DSP2BRSTM) - Converter and multichannel creator for DSP to BRSTM. Merges multiple DSP files into one multichannel BRSTM. Also supports DSP to WAV conversion.
 - [fsb5_split](https://github.com/CyberBotX/fsb5_split) - Tool to split a multi-stream FSB5 into multiple single-stream FSB5s.
@@ -598,6 +602,7 @@ This list is for developers and modders working with such formats. It provides t
 - [hexyl](https://github.com/sharkdp/hexyl) - Command-line hex viewer with colored output.
 - [hex](https://github.com/cosarara/hex) - Simple hexadecimal editor with vi-like modal interface.
 - [hxd-plugin-framework](https://github.com/maelh/hxd-plugin-framework) - Plugin framework for HxD hex editor to support custom file formats.
+- [WpfHexEditorIDE](https://github.com/abbaye/WpfHexEditorIDE) - Full-featured binary analysis IDE for Windows built with WPF and .NET. Features VS-style docking, project system, and multiple specialized editors.
 
 ### 🔬 Format Analysis & Reverse Engineering
 
@@ -670,6 +675,8 @@ This list is for developers and modders working with such formats. It provides t
 - [binrw](https://github.com/jam1garner/binrw) - Rust library for reading and writing binary file formats with derive macros. Successor to `binread`.
 - [DragonLib](https://github.com/neptuwunium/DragonLib) - Common library for file format research.
 - [GL Editor Framework](https://github.com/jupahe64/GL_EditorFramework) - OpenGL-based framework for creating 3D game editors with hardware-accelerated graphics.
+- [DrSwizzler](https://github.com/Shadowth117/DrSwizzler) - Library for deswizzling and detiling texture data.
+- [NvTriStrip.Net](https://github.com/Shadowth117/NvTriStrip.Net) - .NET port of Nvidia's NvTriStrip triangle stripifier library.
 - [SFGraphics](https://github.com/ScanMountGoat/SFGraphics) - OpenGL graphics library for rendering game formats, used in various format viewers.
 - [MeshSharp](https://github.com/MinshuG/MeshSharp) - 3D library in pure C# for reading and writing multiple formats.
   - Formats: FBX, STL, PLY.
@@ -1054,6 +1061,9 @@ This list is for developers and modders working with such formats. It provides t
 - [AfsLib](https://github.com/Sewer56/AfsLib) - Simple, relatively fast library for reading and writing CRIWare AFS archives.
 - [AfsBatch](https://github.com/tge-was-taken/AfsBatch) - Batch AFS packer. Packs each subdirectory in a given directory into an AFS file of the same name.
 - [PyCriCodecs](https://github.com/Youjose/PyCriCodecs) - Python frontend for CRI codec tools.
+- [SonicAudioTools](https://github.com/blueskythlikesclouds/SonicAudioTools) - Toolset for modifying CRIWARE file formats.
+  - Features: ACB Editor, ACB Finder (link AWB to ACB), ACB Injector, CPK Unpacker.
+  - Formats: .acb, .awb, .cpk, .adx, .adx2, .csb.
 
 ### XNA
 
@@ -1577,6 +1587,9 @@ This list is for developers and modders working with such formats. It provides t
 #### Phoenix Wright: Ace Attorney
 
 - [pwaa1 (decomp)](https://github.com/atasro2/pwaa1) - Matching decompilation of Phoenix Wright: Ace Attorney (Gyakuten Saiban, Japan).
+- [pzzcompressor_jojo](https://github.com/infval/pzzcompressor_jojo) - PZZ (de)compressor for JoJo's Bizarre Adventure: Golden Wind (PS2).
+  - Formats: .pzz (compression).
+  - Features: Compress and decompress game archives.
 
 ### CCP Games (EVE Online)
 
@@ -1814,6 +1827,11 @@ This list is for developers and modders working with such formats. It provides t
 - [Sekiro Modding Wiki](https://github.com/SekiroResurrection/modding-wiki) - Documentation for Sekiro modding.
 - [DSMapStudio](https://github.com/soulsmods/DSMapStudio) - Map/level editor for Souls/Bloodborne/Elden Ring.
 - [DSMSPortable](https://github.com/mountlover/DSMSPortable/tree/main) - Portable version of DSMapStudio.
+- [BloodBorne-SFX-Bible-and-FXR-Research](https://github.com/Shadowth117/BloodBorne-SFX-Bible-and-FXR-Research) - Tool for extracting, renaming, and researching SFX and FXR files from Bloodborne.
+- [FlverMapMigrator](https://github.com/Shadowth117/FlverMapMigrator) - Tool for migrating map flver model files for Dark Souls 3 (DS3).
+- [fxr](https://github.com/EvenTorset/fxr) - JavaScript library for parsing, creating, and editing FromSoftware FXR files.
+- [TAE Importer/Exporter for Elden Ring](https://github.com/FWang1221/TAE-Importer-Exporter-For-Elden-Ring) - Tool for importing/exporting TAE (Time Act Editor) animation files for Elden Ring.
+- [FBX2FLVER-MTDFIX](https://github.com/infernoplus/FBX2FLVER-MTDFIX) - Tool to import FBX models into Dark Souls 1 flver format with MTD fixing.
 - [FLVER_Editor](https://github.com/asasasasasbc/FLVER_Editor) - Multifunctional editor to edit and view FromSoftware game's FLVER files (Sekiro, Dark Souls, Bloodborne, etc.).
 - [elden-ring-open-re](https://github.com/garyttierney/elden-ring-open-re) - Public knowledge on reverse engineering Elden Ring.
 - [BinderTool](https://github.com/Atvaark/BinderTool) - Tool for extracting and repacking BND/BHD archives.
@@ -3120,10 +3138,22 @@ This list is for developers and modders working with such formats. It provides t
 #### Phantasy Star
 
 - [PSO2-Aqua-Library](https://github.com/Shadowth117/PSO2-Aqua-Library) - Library for handling Phantasy Star Online 2 Aqua formats, with a focus on models. Functional in grabbing model data from the game's format.
+- [Phantasy-Star-Online-2-Model-Tools](https://github.com/Shadowth117/Phantasy-Star-Online-2-Model-Tools) - Tools for handling PSO2 model and texture formats.
 - [PSO2-Salon-Tool](https://github.com/Shadowth117/PSO2-Salon-Tool) - Program to edit and convert between Phantasy Star Online 2 .xxp and .cml files.
 - [FpkTool](https://github.com/Shadowth117/FpkTool) - Unpacks and repacks Phantasy Star Online 2 FPK archives (pre NGS).
 - [PSO2 Tools](https://github.com/dummycount/blender_pso2_tools) - Blender add-on for Phantasy Star Online 2 assets (`.aqp`, `.aqn`, ICE archives). Features model search, archive browsing, and automatic texture assignment.
 - [Aqua-Toolset](https://github.com/Shadowth117/Aqua-Toolset) - Toolkit primarily for Phantasy Star Online 2 file formats.
+- [PSO2Downloader](https://github.com/Shadowth117/PSO2Downloader) - Official patch downloader for Phantasy Star Online 2.
+- [PSOBMLExtract](https://github.com/Shadowth117/PSOBMLExtract) - Tool to extract and repack PSO .bml and .gsl files using PRS compression.
+- [PigPSO2Cam](https://github.com/Lapig/PigPSO2Cam) - Camera/FOV tool for PSO2 NGS (JP+NA).
+- [NgsPacker](https://github.com/logue/NgsPacker) - Pack and Unpack tool for PSO2 New Genesis (NGS) archives.
+- [PSO2-CRID-Player](https://github.com/zmbkilla/PSO2-CRID-Player) - Tool to play CRIware audio files from PSO2.
+- [phantasmal-world](https://github.com/DaanVandenBosch/phantasmal-world) - Web-based suite of tools for PSO.
+  - Features: Model viewer, quest editor, floor viewer, and proxy server.
+- [pso-blender](https://github.com/jtuu/pso-blender) - Blender plugin for Phantasy Star Online Blue Burst (PSOBB).
+- [pso-pac](https://github.com/jtuu/pso-pac) - Extract and create .pac files for PSO.
+- [gasetoolsWin](https://github.com/Shadowth117/gasetoolsWin) - Windows port of various tools for Phantasy Star Universe.
+- [tenora-works](https://github.com/Agrathejagged/tenora-works) - PSULib and PSU Generic Parser for Phantasy Star Universe.
 
 #### Sonic Team (Hedgehog Engine)
 
@@ -3140,7 +3170,10 @@ This list is for developers and modders working with such formats. It provides t
 - [sa_tools](https://github.com/X-Hax/sa_tools) - Modding toolkit for Sonic Adventure series. Supports Sonic Adventure DX (SADX) and Sonic Adventure 2 PC (SA2PC).
 - [SonicAdventureBlenderIO](https://github.com/X-Hax/SonicAdventureBlenderIO) - Blender 4.0+ add-on for exporting Sonic Adventure 1 & 2 3D formats.
   - Formats: .nj, .gj, .njm, .nja.
-- [HeroesPowerPlant](https://github.com/igorseabra4/HeroesPowerPlant/wiki/Level-Editor) - Full-featured level editor for Sonic Heroes and Shadow the Hedgehog.
+- [HeroesPowerPlant](https://github.com/Shadowth117/HeroesPowerPlant) - Full-featured level editor for Sonic Heroes and Shadow the Hedgehog.
+- [Renderware-.anm-IO-Tool](https://github.com/Shadowth117/Renderware-.anm-IO-Tool) - Tool for importing and exporting RenderWare .anm animation files into and out of 3ds Max.
+- [rwio](https://github.com/Shadowth117/rwio) - 3ds Max plugin for importing and exporting RenderWare models and animations.
+- [Blender-3D-STH-Mtn-plugin](https://github.com/Psycrow101/Blender-3D-STH-Mtn-plugin) - Blender animation plugin for Shadow the Hedgehog (STH) mountain files (.mtn).
 - [Heroes.SDK](https://github.com/Muzzarino/Heroes.SDK) - Unified library for manipulating Sonic Heroes at runtime and definitions for internal data structures and functions. Includes format parsers for creating/extracting various game formats.
 - [SonicMania-SaveEditor](https://github.com/Erik-JS/SonicMania-SaveEditor) - Save editor for Sonic Mania.
 - [Sonic-Colors-Set-Editor](https://github.com/thesupersonic16/Sonic-Colors-Set-Editor) - Set editor for Sonic Colors.
