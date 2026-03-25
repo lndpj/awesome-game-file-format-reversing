@@ -69,7 +69,8 @@ This list is for developers and modders working with such formats. It provides t
   - [Sappy (GBA Audio)](#sappy-gba-audio)
   - [RAD Game Tools](#rad-game-tools)
   - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
-- [Game \& Studio Tools](#game--studio-tools)  - [11 bit studios (Frostpunk)](#11-bit-studios-frostpunk)
+- [Game \& Studio Tools](#game--studio-tools)
+  - [11 bit studios (Frostpunk)](#11-bit-studios-frostpunk)
   - [1C Company / Best Way](#1c-company--best-way)
     - [Men of War](#men-of-war)
     - [Royal Quest Online](#royal-quest-online)
@@ -103,7 +104,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Atlus](#atlus)
   - [Avalanche Studios (Generation Zero)](#avalanche-studios-generation-zero)
   - [Bandai Namco](#bandai-namco)
-  - [Bandai Namco (Dragon Ball)](#bandai-namco-dragon-ball)
+    - [Dragon Ball](#dragon-ball)
   - [Bethesda](#bethesda)
   - [BioWare](#bioware)
     - [Mass Effect](#mass-effect)
@@ -259,10 +260,6 @@ This list is for developers and modders working with such formats. It provides t
     - [Xenoblade Chronicles](#xenoblade-chronicles)
   - [NanaOn-Sha](#nanaon-sha)
   - [Natsume (Harvest Moon)](#natsume-harvest-moon)
-  - [Naughty Dog](#naughty-dog)
-    - [Crash Bandicoot 1-3 \& CTR](#crash-bandicoot-1-3--ctr)
-    - [Spyro the Dragon](#spyro-the-dragon)
-    - [Jak and Daxter](#jak-and-daxter)
   - [Nexon](#nexon)
     - [MapleStory 2](#maplestory-2)
   - [Nihilistic Software](#nihilistic-software)
@@ -297,6 +294,8 @@ This list is for developers and modders working with such formats. It provides t
   - [Obsidian Entertainment](#obsidian-entertainment)
     - [Neverwinter Nights 2](#neverwinter-nights-2)
   - [Oddworld Inhabitants](#oddworld-inhabitants)
+    - [Spyro the Dragon](#spyro-the-dragon)
+    - [Jak and Daxter](#jak-and-daxter)
   - [Panic (Playdate)](#panic-playdate)
   - [Paradox Interactive](#paradox-interactive)
   - [People Can Fly](#people-can-fly)
@@ -1409,7 +1408,7 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Klonoa)](https://github.com/magcius/noclip.website/tree/main/src/rres) - In-browser Klonoa viewer.
 - [noclip.website (Katamari Damacy)](https://github.com/magcius/noclip.website/tree/main/src/KatamariDamacy) - In-browser Katamari Damacy viewer.
 
-### Bandai Namco (Dragon Ball)
+#### Dragon Ball
 
 - [binunpack](https://github.com/shibbo/binunpack) - Program for unpacking the BIN archives in DragonBall: Revenge of King Piccolo, written in Python 3.
 - [DBFModToolCollection](https://github.com/Tiniifan/DBFModToolCollection) - Collection of tools to simplify modding on Dragon Ball Fusion. Includes utilities for working with game files and archives.
