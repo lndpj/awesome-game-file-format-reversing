@@ -37,6 +37,7 @@ This list is for developers and modders working with such formats. It provides t
   - [🔊 Audio Tools](#-audio-tools)
   - [🌐 Translation \& Localization](#-translation--localization)
   - [🔍 Hex Editors](#-hex-editors)
+    - [Scripts \& Templates](#scripts--templates)
   - [🔬 Format Analysis \& Reverse Engineering](#-format-analysis--reverse-engineering)
   - [💻 Development Libraries](#-development-libraries)
   - [📂 Script Collections \& Multi-Game Tools](#-script-collections--multi-game-tools)
@@ -332,6 +333,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Reflections Interactive](#reflections-interactive)
   - [Remedy Entertainment](#remedy-entertainment)
     - [Max Payne](#max-payne)
+    - [Alan Wake 2](#alan-wake-2)
   - [Riot Games](#riot-games)
   - [Runecraft](#runecraft)
   - [Runic Games](#runic-games)
@@ -598,6 +600,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [010 Editor](https://www.sweetscape.com/010editor/) - Professional hex editor with powerful template system for analyzing binary file structures (paid).
 - [ImHex](https://github.com/WerWolv/ImHex) - Modern, open-source hex editor with pattern language for reverse engineering file formats (free).
+
+#### Scripts & Templates
+
+- [Alpha-Offset-Fixer](https://github.com/alphazolam/Alpha-Offset-Fixer) - 010 Editor script to help with relative offsets in binary templates.
 - [hexerator](https://github.com/crumblingstatue/hexerator) - Versatile GUI hex editor focused on binary file exploration and aiding pattern recognition. Written in Rust.
 - [hexyl](https://github.com/sharkdp/hexyl) - Command-line hex viewer with colored output.
 - [hex](https://github.com/cosarara/hex) - Simple hexadecimal editor with vi-like modal interface.
@@ -854,6 +860,10 @@ This list is for developers and modders working with such formats. It provides t
 - [CUE4Parse](https://github.com/FabianFG/CUE4Parse) - C# Parser for UE archives.
 - [UnrealExporter](https://github.com/luk-gg/UnrealExporter) - Batch file exporter.
 - [UE-Modding-Tools](https://github.com/Buckminsterfullerene02/UE-Modding-Tools) - Databank of generic UE modding tools.
+- [UEVR](https://github.com/praydog/UEVR) - Universal Unreal Engine VR Mod. Powerful runtime reversing tool that provides an overlay for inspecting objects, classes, and properties in almost any UE4/5 game.
+- [stove](https://github.com/bananaturtlesandwich/stove) - Cooked Unreal Engine map editor for viewing and modifying levels without original project files.
+- [unreal_auto_mod](https://github.com/Mythical-Github/unreal_auto_mod) - Tools for managing Unreal Engine mod projects and automated building.
+- [JsonAsAsset](https://github.com/JsonAsAsset/JsonAsAsset) - Unreal Engine plugin to import assets from JSON data exported by FModel.
 
 - [Snooper](https://github.com/FModel/Snooper/tree/opengl) - OpenGL based 3D viewer for cooked UE packages.
 - [ActorX Tools](https://www.moddb.com/groups/unreal-tournament-3-mod-developers/downloads/actorx-tools-for-maya-85-3dsmax-9) - The ActorX Tool is a plugin for various 3d creation packages allowing you to import skeletal meshes and animations in Unreal Engine games.
@@ -1247,6 +1257,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Call of Duty
 
 - [Tyrant](https://github.com/Scobalula/Tyrant) - RE Engine asset extractor for Call of Duty file formats.
+- [Greyhound](https://github.com/Scobalula/Greyhound) - Asset extractor for several Call of Duty titles (Black Ops 3/4, WWII, Infinite Warfare, Modern Warfare 2019/II).
 - [ShibaInu](https://github.com/Scobalula/ShibaInu) - Weapon file converter for Call of Duty Mod Tools.
 - [iwd-tool](https://github.com/ZoneTool/iwd-tool) - Command-line tool for generating IWD files for Call of Duty.
 - [lui-tool](https://github.com/xensik/lui-tool) - Utility to assemble and disassemble IW engine UI scripts. Supports Call of Duty: Ghosts (IW6).
@@ -1298,7 +1309,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Angel Studios / Rockstar San Diego
 
 - [GTAVHandlingEditor](https://github.com/ikt32/GTAVHandlingEditor) - Real-time handling editor for Grand Theft Auto V.
-- [fmt_RDR_TEX-Noesis-Plugin](https://github.com/SilverEzredes/fmt_RDR_TEX-Noesis-Plugin) - Noesis plugin for Red Dead Redemption textures.
+- [Noesis Plugins (Red Dead Redemption)](https://github.com/Gh0stBlade/NoesisPlugins) - Various Python scripts for Noesis to import and export textures and models from Rockstar games.
 
 ### Anthony Bongers
 
@@ -1526,13 +1537,22 @@ This list is for developers and modders working with such formats. It provides t
 
 #### RE Engine
 
+- [REFramework](https://github.com/praydog/REFramework) - Powerful scripting framework and mod loader for RE Engine games. Provides an overlay with a resource editor, object explorer, and various developer tools.
 - [REE.PAK.Tool](https://github.com/Ekey/REE.PAK.Tool) - Tools for extracting and repacking PAK archives from games based on RE ENGINE.
+  - See also [REEngine_UnPAK-Desktop](https://github.com/SilverEzredes/REEngine_UnPAK-Desktop) for a desktop GUI version.
 - [ree-pak-rs](https://github.com/eigeen/ree-pak-rs) - Rust-based library and CLI for RE Engine `.pak` files.
-- [RE-Engine-010-Editor-Templates](https://github.com/NSACloud/RE-Engine-010-Editor-Templates) - Collection of 010 templates for RE Engine games.
-- [RE-Engine-Mod-SDK](https://github.com/kagenocookie/RE-Engine-Mod-SDK) - Modding SDK for RE Engine.
+- [RE-Engine-010-Templates](https://github.com/alphazolam/RE-Engine-010-Templates) - Collection of 010 templates for RE Engine games by alphaZomega.
 - [EMV-Engine](https://github.com/alphazolam/EMV-Engine) - REFramework Lua scripts including a Resource Editor tool for RE Engine games.
+  - See also [EMV-Engine-SILVER](https://github.com/SilverEzredes/EMV-Engine-SILVER) for updated support (Resident Evil 4, MH Wilds).
+- [RszTool](https://github.com/kagenocookie/RszTool) - Resource editor for RE Engine `.user`, `.pfb`, and `.scn` files. Supports editing RSZ data in a GUI.
+- [RE_RSZ](https://github.com/SilverEzredes/RE_RSZ) - 010 Editor template for RE Engine RSZ data.
 - [RE-Engine-VSDF-Template](https://github.com/Silvris/RE-Engine-VSDF-Template) - Template for RE Engine VSDF files.
-- [RE-Mesh-Noesis-Plugin](https://github.com/NSACloud/RE-Mesh-Noesis-Plugin) - Noesis plugin for importing RE Engine meshes.
+- [RE-Mesh-Editor](https://github.com/NSACloud/RE-Mesh-Editor) - Visual scene and mesh editor for RE Engine games.
+  - See also [fmt_RE_MESH-Noesis-Plugin](https://github.com/alphazolam/fmt_RE_MESH-Noesis-Plugin) for the modern version with extensive format support.
+- [REE-Content-Editor](https://github.com/kagenocookie/REE-Content-Editor) - Mod development editor and file patcher for RE Engine games.
+- [ReachForGodot](https://github.com/kagenocookie/ReachForGodot) - Godot-based scene and data editor for RE Engine games.
+- [REMSG_Converter](https://github.com/dtlnor/REMSG_Converter) - RE Engine message text converter (`.msg.17` etc.).
+- [RE4-EFX-Template](https://github.com/NSACloud/RE4-EFX-Template) - 010 template for Resident Evil 4 Remake EFX files.
 
 #### MT Framework
 
@@ -1556,7 +1576,6 @@ This list is for developers and modders working with such formats. It provides t
 - [MHW-Research](https://github.com/TheCrazyT/MHW-Research) - Research and tools for Monster Hunter: World file formats.
 - [MHR_Research](https://github.com/NSACloud/MHR_Research) - Research and 010 templates for Monster Hunter Rise.
 - [MHR-EFX-Template](https://github.com/NSACloud/MHR-EFX-Template) - 010 template for Monster Hunter Rise EFX files.
-- [fmt_MHR_TEX-Noesis-Plugin](https://github.com/SilverEzredes/fmt_MHR_TEX-Noesis-Plugin) - Noesis plugin for Monster Hunter Rise textures.
 - [MHST2-Save-Tools](https://github.com/AsteriskAmpersand/MHST2-Save-Tools) - Save file tools for Monster Hunter Stories 2.
 - [Mod3-MHW-Importer](https://github.com/AsteriskAmpersand/Mod3-MHW-Importer) - Blender Import-Exporter for Monster Hunter World Mod3 model format.
 - [RingingBloom](https://github.com/Silvris/RingingBloom) - WWise audio editing toolkit for Monster Hunter: World and other Capcom titles.
@@ -1568,6 +1587,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Street Fighter
 
 - [3s-decomp (decomp)](https://github.com/crowded-street/3s-decomp) - Matching decompilation of Street Fighter III: 3rd Strike (PS2).
+- [MMDK](https://github.com/alphazolam/MMDK) - Moveset editing toolkit for Street Fighter 6. Includes motion and collision data editors.
 
 #### Ultimate Marvel vs Capcom 3
 
@@ -1620,6 +1640,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [WolvenKit](https://github.com/WolvenKit/WolvenKit) - REDEngine 4 file editor designed to simplify and accelerate modding workflow for Cyberpunk 2077.
 - [Cyber Engine Tweaks](https://github.com/maximegmd/CyberEngineTweaks) - Framework to script mods using Lua with access to all the internal scripting features.
+- [RED4ext](https://github.com/WopsS/RED4ext) - Library that extends REDengine 4. It allows modders to add new features to the game, modify existing ones, and create custom scripts.
+- [ArchiveXL](https://github.com/psiberx/cp2077-archive-xl) - Modding tool that allows loading custom resources without overriding existing ones.
+- [TweakXL](https://github.com/psiberx/cp2077-tweak-xl) - Reference-based TweakDB modification framework.
+- [MlsetupBuilder](https://github.com/Neurolinked/MlsetupBuilder) - Tool for building and editing Cyberpunk 2077 .mlsetup files.
 - [inlcppmangle](https://github.com/Mozz3d/inlcppmangle) - Standalone inline C++ parser, mangler, and hasher script intended for reversing and deriving Cyberpunk 2077 hashed linker names.
 - [CR2WTools](https://github.com/rfuzzo/CR2WTools) - WIP library for reading CR2W files (Witcher/Cyberpunk format).
 - [Gibbed.RED4](https://github.com/gibbed/Gibbed.RED4) - Tools for Cyberpunk 2077 file formats.
@@ -1651,6 +1675,7 @@ This list is for developers and modders working with such formats. It provides t
 - [trview](https://github.com/chreden/trview) - Level visualizer for Tomb Raider 1-5 with speedrunning in mind. View room layouts, triggers, and analyze route possibilities.
   - Formats: .TR2, .TR4, .TRC, .PHD
 - [TRosettaStone](https://opentomb.github.io/TRosettaStone3/trosettastone.html) - Extensive documentation on the Tomb Raider file formats (TR1-5).
+- [TR7AE-Mesh-Exporter](https://github.com/Raq1/TR7AE-Mesh-Exporter) - Noesis plugin for exporting meshes from Tomb Raider: Legend and Tomb Raider: Anniversary.
 
 ### CyberStep (CosmicBreak)
 
@@ -2770,6 +2795,8 @@ This list is for developers and modders working with such formats. It provides t
 
 *See also [JSYSTEM](#jsystem-gamecubewii) for Wind Waker and Twilight Princess, and [Fast3d/F3dex](#fast3df3dex-n64) for Ocarina of Time and Majora's Mask.*
 
+- [ZELDA-TOTK-ZS](https://github.com/SilverEzredes/ZELDA-TOTK-ZS) - Batch scripts for extracting and repacking Zstandard (.zs) archives in The Legend of Zelda: Tears of the Kingdom.
+
 - [CloudModding OoT Wiki](https://wiki.cloudmodding.com/oot/Main_Page) - Comprehensive technical wiki for Ocarina of Time with 331+ articles covering actors, objects, scenes, file formats, animations, cutscenes, audio, textures, collision, decompilation project, and modding guides.
 - [WindEditor](https://github.com/Sage-of-Mirrors/WindEditor) - Map viewer/editor for The Legend of Zelda: The Wind Waker.
 - [bfntoolkit](https://github.com/NerduMiner/bfntoolkit) - Extract and repack BFN font files from The Legend of Zelda: The Wind Waker (GameCube). Generates PNG images and JSON metadata. Requires separate BTI conversion tool for repacking.
@@ -3105,14 +3132,12 @@ This list is for developers and modders working with such formats. It provides t
 - [MAX-FX Tools (Max Payne)](https://www.moddb.com/games/max-payne/downloads/max-fx-tools) - Official modding package for Max Payne 1. Tools are not included with the Steam version, so they are provided here.
 - [Max Payne 1-2 Packer](https://www.moddb.com/games/max-payne-2/downloads/max-payne-1-2-packer) - For guys who don't wanna write bat-file for RasMaker
 - [MaxPayne Toolset](https://www.moddb.com/games/max-payne/downloads/maxpayne-toolset) - Max Payne Toolset to pack/extract Mod/RAS Files for Max Payne 1/2. And extracting Textures from LDB Files.
-- [Mod Tools (Max Payne 2)](https://www.moddb.com/games/max-payne-2/downloads/mod-tools) - Official toolset for creating mods, levels, and custom content for Max Payne 2. See also [GitHub mirror](https://github.com/maxpayne-rasmaker/Max-Payne-2-Mod-Tools).
+- [Mod Tools (Max Payne 2)](https://www.moddb.com/games/max-payne-2/downloads/mod-tools) - Official toolset for creating mods, levels, and custom content for Max Payne 2.
 
 #### Alan Wake 2
 
 - [AW2_material.bt](https://github.com/SilverEzredes/AW2_material.bt) - 010 Editor template for Alan Wake 2 materials.
 - [fmt_AW2_TEX-Noesis-Plugin](https://github.com/SilverEzredes/fmt_AW2_TEX-Noesis-Plugin) - Noesis plugin for Alan Wake 2 textures.
-- [fmt_AW2_character_v2-Noesis-Plugin](https://github.com/SilverEzredes/fmt_AW2_character_v2-Noesis-Plugin) - Noesis plugin for Alan Wake 2 characters.
-- [fmt_AW2_LD-Noesis-Plugin](https://github.com/SilverEzredes/fmt_AW2_LD-Noesis-Plugin) - Noesis plugin for Alan Wake 2 levels.
 - [Alan-Wake-2-RMDTOC-Tool](https://github.com/amrshaheen61/Alan-Wake-2-RMDTOC-Tool) - Tool for working with Alan Wake 2 `.rmdtoc` files.
 
 ### Riot Games
@@ -3147,6 +3172,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [ParManager](https://github.com/Kaplas80/ParManager) - Tools for Yakuza series PAR archive files.
 - [yk_gmd_io](https://github.com/theturboturnip/yk_gmd_io) - Import/export addon for Blender 3.2+ that allows .gmd files from the Yakuza game series to be imported/exported.
+- [FighterCommander](https://github.com/HeartlessSeph/FighterCommander) - Extractor and repacker for Yakuza Dragon Engine `fighter_command.cfc` and `hact.chp` files.
 - [ogre-decomp (decomp)](https://github.com/hamzaxx370/ogre-decomp) - Matching decompilation of Yakuza 1 (PS2).
 
 #### Phantasy Star
@@ -3323,6 +3349,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Santa Monica Studio
 
 - [god_of_war_browser](https://github.com/mogaika/god_of_war_browser) - WebGL-based in-browser viewer for God of War I/II (PS2/PS3/Vita) models and textures.
+- [GOWTool](https://github.com/kainotoa/GOWTool) - Asset browser and extractor for God of War (2018). Supports viewing and extracting meshes, textures, and other resources.
 - [God of War 2018 PS4 Tools](https://forum.xentax.com/viewtopic.php?f=16&t=22897) - XeNTaX forum discussion and extraction tools for God of War (2018) on PlayStation 4. *(Link archived/dead)*
 
 #### Sucker Punch
@@ -3592,8 +3619,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Rayman2Lib](https://github.com/szymski/Rayman2Lib) - Various tools for Rayman 2 modding and content extraction.
 - [Rayman2FunBox](https://github.com/rtsonneveld/Rayman2FunBox) - Pack of a few fun mods for Rayman 2 on PC using memory editing, notably the First Person Mod.
 - [raymap](https://github.com/byvar/raymap) - Map viewer/editor for OpenSpace games including Rayman 2, Rayman 3, Rayman Arena, and Tonic Trouble. Supports multiple platforms (PC, PS1, PS2, N64, GameCube, Xbox, iOS, DS, 3DS). Web version available at raym.app.
-- [Rayman Origins Tools](https://github.com/vito-f/Rayman-Origins-Tool) - Tools for exploring UbiArt engine games (Rayman Origins/Legends).
-- [Rayman Control Panel](https://github.com/RayCarrot/RaymanControlPanel) - Comprehensive toolkit for Rayman games including Rayman 3 asset management.
+- [Rayman Control Panel](https://github.com/RayCarrot/RaymanControlPanel) - Powerful community utility and toolkit for Rayman games (Origins, Legends, Rayman 3). Includes an Archive Explorer to modify `.ipk` and asset archives.
 
 #### Anvil / Scimitar
 
