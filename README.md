@@ -546,6 +546,7 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: .zip, .tar (including compressed variants), .rar (read-only), .7z (read-only), brotli, bzip2, gzip, lz4, lzip, minlz, snappy/S2, xz, zlib, zstandard.
   - Features: Stream-oriented APIs, automatic format identification, password-protected 7-Zip/RAR support, insert into .tar/.zip without recreating, multithreaded Gzip, DeepFS for traversing archives transparently.
 - [GARbro](https://github.com/morkt/GARbro) - Visual novels resource browser and extractor supporting many formats.
+- [GameExtractor](https://github.com/wattostudios/GameExtractor) - Multi-game archive tool supporting 4000+ games.
 
 ### 🔊 Audio Tools
 
@@ -682,6 +683,8 @@ This list is for developers and modders working with such formats. It provides t
   - Formats: Kraken, Mermaid, Selkie, Leviathan, LZNA, Bitknit.
 - [Syroot.BinaryData](https://gitlab.com/Syroot/BinaryData) - .NET library for easy binary data reading/writing with support for various endianness and encodings.
 - [Amicitia.IO](https://github.com/tge-was-taken/Amicitia.IO) - High performance File IO library with full support for big endian and offsets.
+- [DirectXTexNet](https://github.com/deng0/DirectXTexNet) - .NET wrapper for DirectXTex, a library for working with DirectX texture formats.
+- [Hexa.NET.ImGui](https://github.com/HexaEngine/Hexa.NET.ImGui) - .NET wrapper for ImGui, useful for creating tools with graphical interfaces.
 - [SharpRiff](https://github.com/gigaherz/SharpRiff) - .NET library for reading and writing RIFF format files, such as .wav, .avi, or WebP.
 - [XeNTaXTools-Legacy](https://github.com/XeNTaXTools/XeNTaXTools-Legacy) - Legacy tools scraped from the XeNTaX forums.
 - [formast](https://github.com/amorilia/formast) - FormAST exposes file format descriptions through a simple API.
@@ -906,6 +909,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Northlight Engine
 
 - [BlenderNorthlight](https://github.com/OpenAWE-Project/BlenderNorthlight) - Blender plugin for loading binmsh/binfbx files from Northlight Engine games (Control, Alan Wake 2, Quantum Break).
+- [neat](https://github.com/TomEvin/neat) - Northlight Engine Archive Tool (supports Quantum Break, Control, Alan Wake 2).
 
 ### Pragma Engine
 
@@ -1294,6 +1298,7 @@ This list is for developers and modders working with such formats. It provides t
 ### Angel Studios / Rockstar San Diego
 
 - [GTAVHandlingEditor](https://github.com/ikt32/GTAVHandlingEditor) - Real-time handling editor for Grand Theft Auto V.
+- [fmt_RDR_TEX-Noesis-Plugin](https://github.com/SilverEzredes/fmt_RDR_TEX-Noesis-Plugin) - Noesis plugin for Red Dead Redemption textures.
 
 ### Anthony Bongers
 
@@ -1522,8 +1527,12 @@ This list is for developers and modders working with such formats. It provides t
 #### RE Engine
 
 - [REE.PAK.Tool](https://github.com/Ekey/REE.PAK.Tool) - Tools for extracting and repacking PAK archives from games based on RE ENGINE.
-- [RE-Engine-VSDF-Template](https://github.com/Silvris/RE-Engine-VSDF-Template) - Template for RE Engine VSDF files.
+- [ree-pak-rs](https://github.com/eigeen/ree-pak-rs) - Rust-based library and CLI for RE Engine `.pak` files.
+- [RE-Engine-010-Editor-Templates](https://github.com/NSACloud/RE-Engine-010-Editor-Templates) - Collection of 010 templates for RE Engine games.
+- [RE-Engine-Mod-SDK](https://github.com/kagenocookie/RE-Engine-Mod-SDK) - Modding SDK for RE Engine.
 - [EMV-Engine](https://github.com/alphazolam/EMV-Engine) - REFramework Lua scripts including a Resource Editor tool for RE Engine games.
+- [RE-Engine-VSDF-Template](https://github.com/Silvris/RE-Engine-VSDF-Template) - Template for RE Engine VSDF files.
+- [RE-Mesh-Noesis-Plugin](https://github.com/NSACloud/RE-Mesh-Noesis-Plugin) - Noesis plugin for importing RE Engine meshes.
 
 #### MT Framework
 
@@ -1545,6 +1554,9 @@ This list is for developers and modders working with such formats. It provides t
 - [mh1j (decomp)](https://github.com/2Tie/mh1j) - Matching decompilation of Monster Hunter (PS2, Japanese release).
 - [mhst2-arc-tool](https://github.com/Fexty12573/mhst2-arc-tool) - Archive tool for Monster Hunter Stories 2.
 - [MHW-Research](https://github.com/TheCrazyT/MHW-Research) - Research and tools for Monster Hunter: World file formats.
+- [MHR_Research](https://github.com/NSACloud/MHR_Research) - Research and 010 templates for Monster Hunter Rise.
+- [MHR-EFX-Template](https://github.com/NSACloud/MHR-EFX-Template) - 010 template for Monster Hunter Rise EFX files.
+- [fmt_MHR_TEX-Noesis-Plugin](https://github.com/SilverEzredes/fmt_MHR_TEX-Noesis-Plugin) - Noesis plugin for Monster Hunter Rise textures.
 - [MHST2-Save-Tools](https://github.com/AsteriskAmpersand/MHST2-Save-Tools) - Save file tools for Monster Hunter Stories 2.
 - [Mod3-MHW-Importer](https://github.com/AsteriskAmpersand/Mod3-MHW-Importer) - Blender Import-Exporter for Monster Hunter World Mod3 model format.
 - [RingingBloom](https://github.com/Silvris/RingingBloom) - WWise audio editing toolkit for Monster Hunter: World and other Capcom titles.
@@ -2769,6 +2781,8 @@ This list is for developers and modders working with such formats. It provides t
 - [noclip.website (Skyward Sword)](https://github.com/magcius/noclip.website/tree/main/src/ZeldaSkywardSword) - In-browser Skyward Sword viewer.
 - [EventWaker](https://github.com/Sage-of-Mirrors/EventWaker) - Editor for the map events in The Legend of Zelda: The Wind Waker.
 - [Event_List_Editor](https://github.com/Sage-of-Mirrors/Event_List_Editor) - Editor for the event_list.dat files found in The Legend of Zelda: The Wind Waker.
+- [TOTK_Research](https://github.com/NSACloud/TOTK_Research) - Research and templates for The Legend of Zelda: Tears of the Kingdom.
+- [MapEditor](https://github.com/MrMystery-Official/MapEditor) - Map editor for The Legend of Zelda: Tears of the Kingdom.
 
 #### Wii Sports
 
@@ -3091,7 +3105,15 @@ This list is for developers and modders working with such formats. It provides t
 - [MAX-FX Tools (Max Payne)](https://www.moddb.com/games/max-payne/downloads/max-fx-tools) - Official modding package for Max Payne 1. Tools are not included with the Steam version, so they are provided here.
 - [Max Payne 1-2 Packer](https://www.moddb.com/games/max-payne-2/downloads/max-payne-1-2-packer) - For guys who don't wanna write bat-file for RasMaker
 - [MaxPayne Toolset](https://www.moddb.com/games/max-payne/downloads/maxpayne-toolset) - Max Payne Toolset to pack/extract Mod/RAS Files for Max Payne 1/2. And extracting Textures from LDB Files.
-- [Mod Tools (Max Payne 2)](https://www.moddb.com/games/max-payne-2/downloads/mod-tools) - Official toolset for creating mods, levels, and custom content for Max Payne 2.
+- [Mod Tools (Max Payne 2)](https://www.moddb.com/games/max-payne-2/downloads/mod-tools) - Official toolset for creating mods, levels, and custom content for Max Payne 2. See also [GitHub mirror](https://github.com/maxpayne-rasmaker/Max-Payne-2-Mod-Tools).
+
+#### Alan Wake 2
+
+- [AW2_material.bt](https://github.com/SilverEzredes/AW2_material.bt) - 010 Editor template for Alan Wake 2 materials.
+- [fmt_AW2_TEX-Noesis-Plugin](https://github.com/SilverEzredes/fmt_AW2_TEX-Noesis-Plugin) - Noesis plugin for Alan Wake 2 textures.
+- [fmt_AW2_character_v2-Noesis-Plugin](https://github.com/SilverEzredes/fmt_AW2_character_v2-Noesis-Plugin) - Noesis plugin for Alan Wake 2 characters.
+- [fmt_AW2_LD-Noesis-Plugin](https://github.com/SilverEzredes/fmt_AW2_LD-Noesis-Plugin) - Noesis plugin for Alan Wake 2 levels.
+- [Alan-Wake-2-RMDTOC-Tool](https://github.com/amrshaheen61/Alan-Wake-2-RMDTOC-Tool) - Tool for working with Alan Wake 2 `.rmdtoc` files.
 
 ### Riot Games
 
@@ -3284,6 +3306,9 @@ This list is for developers and modders working with such formats. It provides t
 - [Crash-Bandicoot-2-Modelexport](https://github.com/warenhuis/Crash-Bandicoot-2-Modelexport) - Model exporter for Crash Bandicoot 2.
 - [crashutils](https://github.com/wurlyfox/crashutils) - Collection of utilities for Crash Bandicoot file formats.
 - [noclip.website (Crash Bandicoot: Warped)](https://github.com/magcius/noclip.website/tree/main/src/CrashWarped) - In-browser Crash Bandicoot: Warped viewer.
+- [nd_pak.bt](https://github.com/alphazolam/nd_pak.bt) - 010 Editor template for Naughty Dog PAK files.
+- [fmt_nd_pak](https://github.com/alphazolam/fmt_nd_pak) - Noesis plugin for Naughty Dog PAK assets.
+- [UnPSARC](https://github.com/rm-NoobInCoding/UnPSARC) - Python tool for extracting PSARC files.
 - [c2c (decomp)](https://github.com/ughman/c2c) - Matching decompilation of Crash Bandicoot 2: Cortex Strikes Back.
 
 #### Polyphony Digital
@@ -3306,6 +3331,7 @@ This list is for developers and modders working with such formats. It provides t
 - [SlyTools](https://github.com/VelocityRa/SlyTools) - Sly Cooper (PS2/PS3 games) modding tools & research
 - [Sly2ModelRE](https://github.com/froggestspirit/Sly2ModelRE) - Researching the model format in Sly 2: Band of Thieves.
 - [sly_dec.py](https://github.com/yukinogatari/Reverse-Engineering/blob/573fc1c20796fb40a982f11dfda4039eb480a34e/Sly%20Cooper/sly_dec.py) - Python script for decrypting Sly Cooper files.
+- [fmt_GoT_SPS-Noesis-Plugin](https://github.com/SilverEzredes/fmt_GoT_SPS-Noesis-Plugin) - Noesis plugin for Ghost of Tsushima assets.
 - [PS23DFormat (Sly 2)](https://web.archive.org/web/20160205080914/http://ps23dformat.wikispaces.com/Sly+2+Band+of+Thieves) - Archived documentation for Sly 2 3D format.
 - [PS23DFormat Wiki Archive](https://archive.org/details/wiki-ps23dformat.wikispaces.com) - Complete archive of PS23DFormat wiki covering PS2 3D formats.
 
