@@ -342,6 +342,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Torchlight II](#torchlight-ii)
   - [SCS Software (Euro Truck Simulator)](#scs-software-euro-truck-simulator)
   - [Sega](#sega)
+    - [Crazy Taxi](#crazy-taxi)
     - [Ryu Ga Gotoku Studio (Dragon Engine)](#ryu-ga-gotoku-studio-dragon-engine)
     - [Phantasy Star](#phantasy-star)
     - [Sonic Team (Hedgehog Engine)](#sonic-team-hedgehog-engine)
@@ -473,6 +474,7 @@ This list is for developers and modders working with such formats. It provides t
 - [ReWolf's Retrogaming Blog](http://blog.rewolf.pl/blog/?cat=23) - Blog posts on retrogaming and reverse engineering.
 - [vgmdocs](https://github.com/loveemu/vgmdocs) - Resources and documentation for video game music formats. Includes guides for GBA sound drivers, FM synth presets, conversion tools, and format documentation.
 - [Inazuma-Eleven-GO-Modding](https://github.com/SxncYT/Inazuma-Eleven-GO-Modding) - Documentation regarding the functions of Inazuma Eleven GO Light/Shadow. Covers game scripting, format specifications, and modding techniques.
+- [Crazy Taxi Reverse Engineering](https://wretched.computer/post/crazytaxi) - Detailed retrospective series on reverse engineering the GameCube version of Crazy Taxi, covering archive (.all), model (.shp), texture (.tex), and audio (.adp) formats.
 
 #### 🎥 Video Tutorials
 
@@ -3212,6 +3214,15 @@ This list is for developers and modders working with such formats. It provides t
 - [ETS2.SCS.Tool](https://github.com/Ekey/ETS2.SCS.Tool) - Tool for extracting SCS archives from Euro Truck Simulator 2.
 
 ### Sega
+
+#### Crazy Taxi
+
+- [Crazy Taxi Reverse Engineering](https://wretched.computer/post/crazytaxi) - Detailed retrospective series on reverse engineering the GameCube version of Crazy Taxi.
+  - Formats: Archive (.all), 3D models (.shp), textures (.tex), audio (.adp).
+  - **Topics**: Rendering, file formats, GameCube.
+- [noclip.website (Crazy Taxi)](https://github.com/magcius/noclip.website/tree/main/src/CrazyTaxi) - In-browser Crazy Taxi viewer (GameCube).
+- [Crazy Taxi Dreamcast Restoration](https://github.com/CookiePLMonster/CT-DC) - Restores removed Dreamcast exclusive content (music, licensing) to the PC version.
+- [SilentPatch for Crazy Taxi](https://github.com/CookiePLMonster/SilentPatchCT) - Fixes common issues in the PC version of Crazy Taxi, including frame rate and resolution fixes.
 
 #### Ryu Ga Gotoku Studio (Dragon Engine)
 
