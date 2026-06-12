@@ -61,6 +61,13 @@ This list is for developers and modders working with such formats. It provides t
   - [Ren'Py](#renpy)
   - [Rawthrills G7 Engine](#rawthrills-g7-engine)
   - [OpenSpace](#openspace)
+  - [LithTech Engine](#lithtech-engine)
+  - [Adventure Game Studio (AGS)](#adventure-game-studio-ags)
+  - [BioWare Aurora Engine](#bioware-aurora-engine)
+  - [Clickteam Fusion](#clickteam-fusion)
+  - [Dark Engine](#dark-engine)
+  - [SCI Engine (Sierra)](#sci-engine-sierra)
+  - [SCUMM](#scumm)
 - [🔧 Middleware \& SDKs](#-middleware--sdks)
   - [Fast3d/F3dex (N64)](#fast3df3dex-n64)
   - [Havok](#havok)
@@ -72,6 +79,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Sappy (GBA Audio)](#sappy-gba-audio)
   - [RAD Game Tools](#rad-game-tools)
   - [Nintendo SDKs \& Hardware](#nintendo-sdks--hardware)
+  - [FMOD](#fmod)
+  - [SpeedTree](#speedtree)
+  - [Wwise](#wwise)
 - [Game \& Studio Tools](#game--studio-tools)
   - [11 bit studios (Frostpunk)](#11-bit-studios-frostpunk)
   - [1C Company / Best Way](#1c-company--best-way)
@@ -142,11 +152,15 @@ This list is for developers and modders working with such formats. It provides t
   - [Clover Studio (Okami)](#clover-studio-okami)
   - [CR-Space (Martial Heroes)](#cr-space-martial-heroes)
   - [Croteam](#croteam)
+  - [Cryo Interactive](#cryo-interactive)
+    - [Dune (1992)](#dune-1992)
   - [Crystal Dynamics / Eidos Interactive](#crystal-dynamics--eidos-interactive)
   - [CyberStep (CosmicBreak)](#cyberstep-cosmicbreak)
   - [Cygames (Granblue Fantasy Relink)](#cygames-granblue-fantasy-relink)
   - [Disney Interactive](#disney-interactive)
     - [Toontown Online](#toontown-online)
+  - [Digital Extremes](#digital-extremes)
+    - [The Darkness II](#the-darkness-ii)
   - [DOKA Studios](#doka-studios)
   - [Double Fine (Psychonauts, Costume Quest)](#double-fine-psychonauts-costume-quest)
   - [Dynamix / Sierra](#dynamix--sierra)
@@ -171,6 +185,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Free Radical Design (TimeSplitters)](#free-radical-design-timesplitters)
   - [Frictional Games (Amnesia, Soma)](#frictional-games-amnesia-soma)
   - [FromSoftware](#fromsoftware)
+  - [Funcom](#funcom)
+    - [Dreamfall: The Longest Journey](#dreamfall-the-longest-journey)
+    - [Secret World Legends](#secret-world-legends)
   - [Game Freak](#game-freak)
     - [Gen I \& II](#gen-i--ii)
     - [Gen III](#gen-iii)
@@ -194,9 +211,13 @@ This list is for developers and modders working with such formats. It provides t
   - [Harmonix](#harmonix)
   - [Hasbro Interactive (Frogger)](#hasbro-interactive-frogger)
   - [Heavy Iron Studios](#heavy-iron-studios)
+  - [Headfirst Productions](#headfirst-productions)
+    - [Call of Cthulhu: Dark Corners of the Earth](#call-of-cthulhu-dark-corners-of-the-earth)
   - [Her Interactive (Nancy Drew)](#her-interactive-nancy-drew)
   - [HeroForge (HeroForge)](#heroforge-heroforge)
   - [Hudson Soft](#hudson-soft)
+  - [Hydravision Entertainment](#hydravision-entertainment)
+    - [ObsCure](#obscure)
   - [Human Head Studios](#human-head-studios)
   - [id Software](#id-software)
   - [Illusion](#illusion)
@@ -213,6 +234,8 @@ This list is for developers and modders working with such formats. It provides t
     - [Deus Ex](#deus-ex)
   - [Ironclad Games / Stardock](#ironclad-games--stardock)
     - [Sins of a Solar Empire](#sins-of-a-solar-empire)
+  - [Iron Lore Entertainment](#iron-lore-entertainment)
+    - [Titan Quest](#titan-quest)
   - [Jagex](#jagex)
   - [Jupiter](#jupiter)
   - [Koei Tecmo](#koei-tecmo)
@@ -225,18 +248,26 @@ This list is for developers and modders working with such formats. It provides t
   - [Kuju London](#kuju-london)
   - [Larian Studios](#larian-studios)
     - [Divinity: Original Sin 2](#divinity-original-sin-2)
-    - [Beyond Divinity](#beyond-divinity)
+    - [Divine Divinity / Beyond Divinity](#divine-divinity--beyond-divinity)
   - [Level-5](#level-5)
   - [Lionhead Studios (Black \& White)](#lionhead-studios-black--white)
+  - [Looking Glass Studios](#looking-glass-studios)
+    - [System Shock 2](#system-shock-2)
+    - [Thief](#thief)
+    - [Ultima Underworld](#ultima-underworld)
   - [LucasArts](#lucasarts)
   - [Macrospace](#macrospace)
     - [Fatal Force: Earth Assault](#fatal-force-earth-assault)
+  - [Massive Development](#massive-development)
+    - [Archimedean Dynasty](#archimedean-dynasty)
   - [Massive Entertainment](#massive-entertainment)
     - [AquaNox](#aquanox)
     - [World in Conflict](#world-in-conflict)
   - [Mega Crit (Slay the Spire)](#mega-crit-slay-the-spire)
   - [Metropolis Software](#metropolis-software)
     - [Gorky 17](#gorky-17)
+  - [Microids](#microids)
+    - [Still Life 2](#still-life-2)
   - [Microsoft Studios / Bungie / Turn 10](#microsoft-studios--bungie--turn-10)
     - [Halo](#halo)
     - [Destiny](#destiny)
@@ -266,6 +297,8 @@ This list is for developers and modders working with such formats. It provides t
     - [MapleStory 2](#maplestory-2)
   - [Nihilistic Software](#nihilistic-software)
   - [Ninja Kiwi (Bloons TD)](#ninja-kiwi-bloons-td)
+  - [MercurySteam](#mercurysteam)
+    - [Metroid Dread](#metroid-dread)
   - [Nintendo EAD](#nintendo-ead)
     - [Animal Crossing](#animal-crossing)
     - [AST](#ast)
@@ -298,12 +331,19 @@ This list is for developers and modders working with such formats. It provides t
   - [Oddworld Inhabitants](#oddworld-inhabitants)
     - [Spyro the Dragon](#spyro-the-dragon)
     - [Jak and Daxter](#jak-and-daxter)
+  - [Origin Systems](#origin-systems)
+    - [Ultima VII](#ultima-vii)
+    - [Ultima IX: Ascension](#ultima-ix-ascension)
+  - [Outrage Entertainment](#outrage-entertainment)
+    - [Descent 3](#descent-3)
   - [Panic (Playdate)](#panic-playdate)
   - [Paradox Interactive](#paradox-interactive)
   - [People Can Fly](#people-can-fly)
     - [Painkiller](#painkiller)
     - [Dreamkiller](#dreamkiller)
   - [Petroglyph Games](#petroglyph-games)
+  - [Phenomic](#phenomic)
+    - [SpellForce](#spellforce)
   - [Piranha Bytes](#piranha-bytes)
   - [PlatinumGames](#platinumgames)
     - [Bayonetta](#bayonetta)
@@ -314,6 +354,7 @@ This list is for developers and modders working with such formats. It provides t
   - [Procedural Arts](#procedural-arts)
     - [Façade](#façade)
   - [Punchline](#punchline)
+  - [Quantic Dream](#quantic-dream)
   - [Radical Entertainment](#radical-entertainment)
   - [Rare](#rare)
     - [Banjo-Kazooie](#banjo-kazooie)
@@ -329,6 +370,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Soldier of Fortune](#soldier-of-fortune)
   - [Rebel Act](#rebel-act)
   - [Rebellion Developments](#rebellion-developments)
+    - [Judge Dredd: Dredd vs Death](#judge-dredd-dredd-vs-death)
     - [Aliens vs. Predator 2](#aliens-vs-predator-2)
     - [Aliens vs. Predator (2010)](#aliens-vs-predator-2010)
   - [Reflections Interactive](#reflections-interactive)
@@ -352,9 +394,13 @@ This list is for developers and modders working with such formats. It provides t
     - [Puyo Puyo](#puyo-puyo)
     - [System \& Middleware](#system--middleware)
     - [Other Games](#other-games)
+  - [Sierra On-Line](#sierra-on-line)
+    - [Quest for Glory V: Dragonfire](#quest-for-glory-v-dragonfire)
   - [Slitherine / Proxy Studios](#slitherine--proxy-studios)
   - [Snowblind Studios](#snowblind-studios)
     - [Baldur's Gate: Dark Alliance](#baldurs-gate-dark-alliance)
+  - [SoftClub](#softclub)
+    - [Treasure Island (2005)](#treasure-island-2005)
   - [Sony PlayStation Studios](#sony-playstation-studios)
     - [Guerrilla Games (Decima Engine)](#guerrilla-games-decima-engine)
     - [Insomniac Games](#insomniac-games)
@@ -379,6 +425,7 @@ This list is for developers and modders working with such formats. It provides t
     - [Babylon's Fall](#babylons-fall)
     - [Hitman](#hitman)
   - [Stainless Games (Carmageddon)](#stainless-games-carmageddon)
+  - [Starbreeze Studios](#starbreeze-studios)
   - [Studio MDHR (Cuphead)](#studio-mdhr-cuphead)
   - [Supercell](#supercell)
   - [SuperTuxKart](#supertuxkart)
@@ -389,7 +436,9 @@ This list is for developers and modders working with such formats. It provides t
   - [Techland](#techland)
   - [Telltale Games](#telltale-games)
   - [Terminal Reality (Nocturne)](#terminal-reality-nocturne)
+    - [Terminal Velocity / Fury3](#terminal-velocity--fury3)
     - [BloodRayne](#bloodrayne)
+  - [Terrible Toybox](#terrible-toybox)
   - [Terry Cavanagh](#terry-cavanagh)
     - [VVVVVV](#vvvvvv)
   - [Thekla Inc (The Witness)](#thekla-inc-the-witness)
@@ -412,6 +461,9 @@ This list is for developers and modders working with such formats. It provides t
     - [Anno 1800](#anno-1800)
   - [Visceral Games (Dead Space, Dante's Inferno)](#visceral-games-dead-space-dantes-inferno)
   - [Wargaming (World of Warships)](#wargaming-world-of-warships)
+  - [Westwood Studios](#westwood-studios)
+    - [Blade Runner (1997)](#blade-runner-1997)
+    - [Nox](#nox)
   - [Whoopee Camp (Tomba!)](#whoopee-camp-tomba)
   - [Working Designs (Lunar)](#working-designs-lunar)
   - [Yostar / Revived Witch](#yostar--revived-witch)
@@ -443,6 +495,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [Just Solve the File Format Problem](http://fileformats.archiveteam.org/wiki/Game_data_files) - ArchiveTeam's wiki for file formats.
 - [XeNTaX Wiki (defunct)](https://web.archive.org/web/20230822181840/https://wiki.xentax.com/index.php/Game_File_Format_Central) - Massive database of file format specifications.
+- [XeNTaXBackup](https://github.com/XeNTaXBackup/XeNTaXBackup.github.io) - Public backup of the XeNTaX game file format reverse engineering forum and wiki, preserving community knowledge on game format documentation, QuickBMS scripts, and format research.
 
 ### Platform & SDK Documentation
 
@@ -653,6 +706,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Reloaded.Hooks](https://github.com/Reloaded-Project/Reloaded.Hooks) - Advanced native function hooks for x86 and x64. High-performance hooking library for .NET with support for unit testing hooks. Used in Reloaded modding framework.
 - [Reloaded-II](https://github.com/Reloaded-Project/Reloaded-II) - Universal .NET Core powered modding framework for any native game (x86, x64). DLL injection based mod loader with mod management system, optional mod SDK, and extensive plugin support.
 - [dnSpy](https://github.com/dnSpy/dnSpy) - .NET debugger and assembly editor. Essential for inspecting and editing .NET game binaries (Unity games, etc.) even without source code. Supports decompilation to C#.
+- [ReClass.NET](https://github.com/FransBouma/ReClass.NET) - Advanced memory class layout reverse engineering tool widely used for analyzing in-memory game data structures, helping translate runtime structures into file format definitions.
 
 - [ExeGag](https://github.com/efimandreev0/ExeGag) - Tool to edit game strings into compiled ELF files.
 - [psxprev](https://github.com/rickomax/psxprev) - Playstation (PSX) Files Previewer and Extractor. Supports various model, texture, and animation formats.
@@ -954,6 +1008,7 @@ This list is for developers and modders working with such formats. It provides t
 - [010-Templates](https://github.com/Markemp/010-Templates) - 010 Editor binary templates for CryEngine, Lumberyard, and Open 3D Engine asset files.
   - Formats: .cgf, .chr, .skin (geometry/character/skinned mesh), .caf, .dba (animation), with a unified entry point that auto-detects CryTek / CrChF / Ivo variants.
   - Games: MechWarrior Online, ArcheAge (CryTek format), Hunt: Showdown (CrChF), Star Citizen (Ivo).
+- [Far-Cry-1-Source-Full](https://github.com/StrongPC123/Far-Cry-1-Source-Full) - Full source code for Far Cry 1 by Crytek — leaked non-commercial reference release for CryEngine 1, useful for understanding original CryEngine file formats and engine internals.
 
 ### Dagor Engine
 
@@ -1076,7 +1131,7 @@ This list is for developers and modders working with such formats. It provides t
 
 *Sierra On-Line's Script Creation Interpreter, used in King's Quest, Space Quest, Police Quest, Leisure Suit Larry, Gabriel Knight, and many other Sierra titles.*
 
-- [SCICompanion](https://github.com/icefallgames/SCICompanion) - Full-featured IDE for creating and editing Sierra SCI engine games (SCI0 through SCI1.1). Supports editing scripts, rooms, sounds, views, fonts, pics, cursors, messages, and palettes. Official site: [scicompanion.com](http://scicompanion.com).
+- [SCICompanion](https://github.com/icefallgames/SCICompanion) - Full-featured IDE for creating and editing Sierra SCI engine games (SCI0 through SCI1.1). Supports editing scripts, rooms, sounds, views, fonts, pics, cursors, messages, and palettes. Official site: [scicompanion.com](https://scicompanion.com).
 
 ### SCUMM
 
@@ -1194,7 +1249,7 @@ This list is for developers and modders working with such formats. It provides t
 - [CriFsV2Lib](https://github.com/Sewer56/CriFsV2Lib) - Library for working with CRI FileSystem V2 archives.
 - [AfsLib](https://github.com/Sewer56/AfsLib) - Simple, relatively fast library for reading and writing CRIWare AFS archives.
 - [AfsBatch](https://github.com/tge-was-taken/AfsBatch) - Batch AFS packer. Packs each subdirectory in a given directory into an AFS file of the same name.
-- [PyCriCodecs](https://github.com/Youjose/PyCriCodecs) - Python frontend for CRI codec tools.
+- [CriCodecs](https://github.com/Youjose/CriCodecs) - Python frontend for CRI codec tools.
 - [SonicAudioTools](https://github.com/blueskythlikesclouds/SonicAudioTools) - Toolset for modifying CRIWARE file formats.
   - Features: ACB Editor, ACB Finder (link AWB to ACB), ACB Injector, CPK Unpacker.
   - Formats: .acb, .awb, .cpk, .adx, .adx2, .csb.
@@ -1814,7 +1869,7 @@ This list is for developers and modders working with such formats. It provides t
 - [ArchiveXL](https://github.com/psiberx/cp2077-archive-xl) - Modding tool that allows loading custom resources without overriding existing ones.
 - [TweakXL](https://github.com/psiberx/cp2077-tweak-xl) - Reference-based TweakDB modification framework.
 - [MlsetupBuilder](https://github.com/Neurolinked/MlsetupBuilder) - Tool for building and editing Cyberpunk 2077 .mlsetup files.
-- [inlcppmangle](https://github.com/Mozz3d/inlcppmangle) - Standalone inline C++ parser, mangler, and hasher script intended for reversing and deriving Cyberpunk 2077 hashed linker names.
+- [cppdeclmangle](https://github.com/Mozz3d/cppdeclmangle) - Standalone inline C++ parser, mangler, and hasher script intended for reversing and deriving Cyberpunk 2077 hashed linker names.
 - [CR2WTools](https://github.com/rfuzzo/CR2WTools) - WIP library for reading CR2W files (Witcher/Cyberpunk format).
 - [Gibbed.RED4](https://github.com/gibbed/Gibbed.RED4) - Tools for Cyberpunk 2077 file formats.
 
@@ -1845,6 +1900,8 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Crystal Dynamics / Eidos Interactive
 
+- [KAIN2 (decomp)](https://github.com/Gh0stBlade/KAIN2) - Decompiled source code for Legacy of Kain: Soul Reaver (Crystal Dynamics, 1999), based on the PC build.
+- [FoundationEngine](https://github.com/Gh0stBlade/FoundationEngine) - Reverse-engineered source code for Crystal Dynamics' CDC Foundation Engine, based on Legacy of Kain: Soul Reaver 2 (lc2) PC build artifacts.
 - [soul-re (decomp)](https://github.com/fmil95/soul-re) - Matching decompilation of Legacy of Kain: Soul Reaver (PS1).
 - [gex64decomp (decomp)](https://github.com/matbourgon/gex64decomp) - Matching decompilation of Gex 64: Enter the Gecko (N64).
 - [Blood Omen 2 3D Rip Tools](https://www.moddb.com/games/blood-omen-2/downloads/blood-omen-2-3d-rip-tools) - A group of cli to export and manipulate blood omen 2 raw 3d model into wavefront and dds textures
@@ -2038,6 +2095,7 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Frictional Games (Amnesia, Soma)
 
+- [AmnesiaTheDarkDescent](https://github.com/FrictionalGames/AmnesiaTheDarkDescent) - Official open-source release of Amnesia: The Dark Descent (2010) by Frictional Games, including the HPL2 engine source code.
 - [AmnesiaLoader](https://github.com/REDxEYE/AmnesiaLoader) - UniLoader addon for most Frictional Games titles (Amnesia series, Soma, etc).
 
 ### FromSoftware
@@ -2482,6 +2540,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Anachronox
 
 - [Anachronox Modding Tools](https://www.moddb.com/games/anachronox/downloads/anachronox-modding-tools) - Mapping and modding tools for Anachronox, includes documentation.
+- [chronon](https://github.com/hogsy/chronon) - Open-source reimplementation of Anachronox (Ion Storm, 2001) built on the Quake 2 engine, reading original game data files.
 
 #### Deus Ex
 
@@ -2535,7 +2594,7 @@ This list is for developers and modders working with such formats. It provides t
 - [Rex](https://github.com/Jayveer/Rex) - A tool to extract the Stage Dir and Dar files from the game Metal Gear Solid on PS1
 - [libgcl](https://github.com/Jayveer/libgcl) - Attempt at reversing the libgcl library used in Metal Gear Solid 4. Expected to be compiled on Big Endian architecture as per the original.
 - [MGS-KMD-Noesis](https://github.com/Jayveer/MGS-KMD-Noesis) - Noesis Plugin for Metal Gear Solid PS1 Model (KMD) and Animation (OAR) files
-- [MGS2 HZX Format](https://github.com/GirianSeed/mgs2/blob/trunk/source/include/fmt_hzx.h) - Documentation for Metal Gear Solid 2 HZX (Hazard) map navigation format including patrol routes, navmesh, triggers, cameras, and spatial zones.
+
 - [MGS-MDL-Noesis](https://github.com/Jayveer/MGS-MDL-Noesis) - Noesis plugin for importing Metal Gear Solid 3 MDL models and MTAR animations.
 - [DAR Archive Editor (Metal Gear Solid 2: Sons of Liberty)](https://www.moddb.com/games/metal-gear-solid-2-sons-of-liberty/downloads/dar-archive-editor)
 - [mgs_reversing (decomp)](https://github.com/FoxdieTeam/mgs_reversing) - Matching decompilation of Metal Gear Solid (PSX).
@@ -2593,8 +2652,9 @@ This list is for developers and modders working with such formats. It provides t
 - [LSLib](https://github.com/Norbyte/lslib) - Tools for manipulating Divinity Original Sin and Baldur's Gate 3 files including archive extraction.
 - [Norbyte's Divinity Script Extender](https://github.com/Norbyte/ositools) - Divinity: Original Sin 2 script extender toolkit adding features to the scripting language of the game.
 
-#### Beyond Divinity
+#### Divine Divinity / Beyond Divinity
 
+- [DivEdit](https://github.com/Raan/DivEdit) - Level and asset editor for Divine Divinity and Beyond Divinity (Larian Studios), parsing proprietary packed archive formats (CPackedb, CPackedi) with LZO compression; supports editing terrain, textures, and game objects.
 - [Beyond-Divinity-Translation-Tool](https://github.com/dortkoldantaciz/Beyond-Divinity-Translation-Tool) - Translation tool for Beyond Divinity (extract/repack .cmp, .gsm).
 - [bg3-dialog-reader](https://github.com/angaityel/bg3-dialog-reader) - Tool to view, extract, convert, and listen to dialog files from Baldur's Gate 3.
 
@@ -2644,6 +2704,10 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Looking Glass Studios
 
+#### System Shock 2
+
+- [shock2quest](https://github.com/tommy-xr/shock2quest) - Engine recreation of the Dark Engine targeting Meta Quest VR, reading original System Shock 2 game data files. *See also [Dark Engine](#dark-engine) for general Dark Engine format tools.*
+
 #### Thief
 
 - [KCTools](https://github.com/JarrodDoyle/KCTools) - Tools for working with Thief fan missions under the NewDark 1.27 engine.
@@ -2653,6 +2717,7 @@ This list is for developers and modders working with such formats. It provides t
 
 - [UnderworldExporter](https://github.com/hankmorgan/UnderworldExporter) - Unity-based reimplementation and asset exporter for Ultima Underworld I & II; loads original game levels, geometry, textures, objects, and save files. Development has since migrated to [UnderworldGodot](https://github.com/hankmorgan/UnderworldGodot).
 - [UWReverseEngineering](https://github.com/hankmorgan/UWReverseEngineering) - Reverse engineering research for Ultima Underworld I & II; includes IDA Pro 5 databases (UW.idb / UW2.idb) with annotated disassembly and a detailed game mechanics guide.
+- [UnderworldAdventures](https://github.com/vividos/UnderworldAdventures) - Project to recreate Ultima Underworld 1: The Stygian Abyss for modern operating systems, reading and rendering original game files.
 
 ### LucasArts
 
@@ -2680,6 +2745,7 @@ This list is for developers and modders working with such formats. It provides t
 #### Archimedean Dynasty
 
 - [SF-Converter](https://github.com/LMCrashy/SF-Converter) - Batch converter for Archimedean Dynasty (Schleichfahrt) resources; converts R16/IMB/PCX/IMG images to PNG, PCM audio to WAV, MOD models to glTF 2.0, and MVI movies to MP4.
+- [vertigo](https://github.com/pnordhus/vertigo) - Engine recreation of Archimedean Dynasty (Schleichfahrt) that loads and renders original game data files.
 
 ### Massive Entertainment
 
@@ -2784,6 +2850,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Area 51
 
+- [area51](https://github.com/ProjectDreamland/area51) - Source code release for Area 51 (2005) by Midway Games / Midway Studios Austin.
 - [engine-51](https://github.com/bigianb/engine-51) - Experimental tools for Area 51 (2005) engine.
 
 #### Gauntlet
@@ -2963,7 +3030,6 @@ This list is for developers and modders working with such formats. It provides t
 - [pikmin (decomp)](https://github.com/projectPiki/pikmin) - Matching decompilation of Pikmin.
 - [pik2wii (decomp)](https://github.com/projectPiki/pik2wii) - Matching decompilation of New Play Control! Pikmin 2 (Wii, USA).
 - [pikmin2 (decomp)](https://github.com/projectPiki/pikmin2) - Matching decompilation of Pikmin 2 (GameCube, USA).
-- [MODConv](https://github.com/intns/MODConv) - MOD model format converter for Pikmin 1.
 - [Pikmin1Toolset](https://github.com/NerduMiner/Pikmin1Toolset) - Collection of modding tools including mod2obj converter for Pikmin 1.
 - [PikBinGen](https://github.com/RenolY2/PikBinGen) - Binary file generator for creating custom Pikmin levels.
 - [MeltyTool (Pikmin1)](https://github.com/MeltyPlayer/MeltyTool/tree/main/FinModelUtility/Games/Pikmin1) - Pikmin 1 format viewer/exporter.
@@ -3101,7 +3167,6 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Star Fox 64
 
-- [sf64 (decomp)](https://github.com/sonicdcer/sf64) - Matching decompilation of Star Fox 64.
 - [sf64ex](https://github.com/jkbenaim/sf64ex) - Extractor for extracting files from Star Fox 64 ROMs.
 
 #### Star Fox 64 3D
@@ -3123,7 +3188,6 @@ This list is for developers and modders working with such formats. It provides t
 
 #### Snowboard Kids
 
-- [sk (decomp)](https://github.com/sonicdcer/sk) - Matching decompilation of Snowboard Kids (N64).
 - [snowboardkids2-decomp (decomp)](https://github.com/cdlewis/snowboardkids2-decomp) - Matching decompilation of Snowboard Kids 2 (N64).
 
 #### Wave Race 64
@@ -3231,9 +3295,20 @@ This list is for developers and modders working with such formats. It provides t
 
 ### Origin Systems
 
+#### Ultima VII
+
+- [exult](https://github.com/exult/exult) - Long-running project to recreate Ultima VII: The Black Gate and Serpent Isle for modern operating systems, reading original game data and graphics files.
+- [U7Revisited](https://github.com/ViridianGames/U7Revisited) - Replacement engine for Ultima VII: The Black Gate (and Serpent Isle) presenting a new camera angle, reading original game data files.
+
 #### Ultima IX: Ascension
 
 - [Ultima-9-Blender-Importer](https://github.com/Chevluh/Ultima-9-Blender-Importer) - Blender importer for Ultima IX: Ascension assets; supports terrain heightmaps (from the *static* directory), map object models (fixed/nonfixed), and bulk import from the *sappear.flx* model archive (3,764 model IDs), with Eevee/Cycles shader approximations.
+
+### Outrage Entertainment
+
+#### Descent 3
+
+- [Descent3](https://github.com/DescentDevelopers/Descent3) - Official open-source release of Descent 3 (Outrage Entertainment, 1999), preserving the full game engine and assets for modern platforms.
 
 ### Panic (Playdate)
 
@@ -3365,7 +3440,7 @@ This list is for developers and modders working with such formats. It provides t
 
 #### GoldenEye 007
 
-- [noclip.website (GoldenEye 007)](https://github.com/magcius/noclip.website/tree/main/src/GoldenEye007) - In-browser GoldenEye 007 viewer.
+- [noclip.website (GoldenEye 007)](https://github.com/magcius/noclip.website/tree/af395a5805f5b6c2f5909faf1d8dc33f0f9e6978/src/GoldenEye007) - In-browser GoldenEye 007 viewer (pinned to last commit before viewer was removed).
 - [GoldEditor](https://github.com/carnivoroussociety/GoldEditor) - Setup editor for GoldenEye 007 game configurations.
 
 #### Conker's Bad Fur Day
@@ -3591,6 +3666,8 @@ This list is for developers and modders working with such formats. It provides t
 - [PCSX2 Patches](https://github.com/PCSX2/pcsx2_patches) - Game patches for PCSX2 emulator including widescreen and interlacing fixes.
 
 ### Sierra On-Line
+
+- [SCI-Decompilation-Archive](https://github.com/EricOakford/SCI-Decompilation-Archive) - Archive of decompiled source code for Sierra's SCI engine games, covering SCI0, SCI1, and SCI2 eras.
 
 #### Quest for Glory V: Dragonfire
 
@@ -3837,6 +3914,10 @@ This list is for developers and modders working with such formats. It provides t
 
 - [dethrace (decomp)](https://github.com/dethrace-labs/dethrace) - Matching decompilation of Carmageddon (1997).
 
+### Starbreeze Studios
+
+- [sbengine](https://github.com/hogsy/sbengine) - Source code for Starbreeze Studios' in-house engine (1996–2012), November 2006 snapshot. Used in The Chronicles of Riddick: Escape from Butcher Bay, The Darkness, and other Starbreeze titles.
+
 ### Studio MDHR (Cuphead)
 
 - [cuphead-decomp (decomp)](https://github.com/jmxamongusmodder/cuphead-decomp) - Matching decompilation of Cuphead.
@@ -3903,11 +3984,16 @@ This list is for developers and modders working with such formats. It provides t
 
 - [NocturneDecomp (decomp)](https://github.com/NearlyTRex/NocturneDecomp) - Matching decompilation of Nocturne.
 
-#### BloodRayne
+#### Terminal Velocity / Fury3
 
-- [br2proj](https://github.com/PavelSharp/br2proj) - BloodRayne 2 Blender add-on for importing `.tex` textures, `.smb` models, and `.bfm`/`.skb` skeletal meshes.
+- [terminal-recall](https://github.com/jtrfp/terminal-recall) - Open-source engine remake for Terminal Velocity and Fury3 that reads and renders original game data files. Built on jtrfp.
 - [jtrfp](https://github.com/jtrfp/jtrfp) - Java library providing file parsers for Terminal Reality game formats, intended as a dependency for game re-implementation projects.
   - Formats: POD (archive), BIN (3D models), ACT/CLR (palettes), TEX (textures), TRK/LVL/CRS (track/level/course data), LST, PUP, KFM, RAW, SIT.
+
+#### BloodRayne
+
+- [RedRayne](https://github.com/americusmaximus/RedRayne) - Open-source reverse-engineered implementation of Terminal Reality's BloodRayne (2002), reading original game assets with DX8, DX9, and OpenGL renderer support.
+- [br2proj](https://github.com/PavelSharp/br2proj) - BloodRayne 2 Blender add-on for importing `.tex` textures, `.smb` models, and `.bfm`/`.skb` skeletal meshes.
 
 ### Terrible Toybox
 
@@ -4033,6 +4119,10 @@ This list is for developers and modders working with such formats. It provides t
 #### Blade Runner (1997)
 
 - [bladerunnermodelviewer](https://github.com/peterkohaut/bladerunnermodelviewer) - 3D model viewer for Blade Runner (1997), loading the game's proprietary model formats.
+
+#### Nox
+
+- [opennox](https://github.com/opennox/opennox) - Community reimplementation and extension of the Nox (Westwood Studios, 2000) engine, supporting the full vanilla campaign and multiplayer using original game data files.
 
 ### Whoopee Camp (Tomba!)
 

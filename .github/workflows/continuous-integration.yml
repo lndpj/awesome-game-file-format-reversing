@@ -3,18 +3,7 @@ run-name: Running tests on "${{ github.ref }}" by "${{ github.actor }}"
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  # lint-readme:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - uses: actions/checkout@v4
-  #   - uses: actions/setup-python@v4
-  #     with:
-  #       python-version: "3.10"
-  #   - run: pip install mdformat-gfm mdformat-frontmatter mdformat-footnote
-  #   - run: mdformat --check README.md
-
   check-links:
-    # needs: lint-readme
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -22,5 +11,5 @@ jobs:
       uses: lycheeverse/lychee-action@v2.7.0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        args: --root-dir "$(pwd)" --accept '200..=204, 403, 429, 500' --exclude-file '.lycheeignore' --no-progress --timeout 60 --cache --retry-wait-time 3 --max-concurrency 64 .
+        args: --root-dir "$(pwd)" --accept '200..=204, 403, 429, 500' --exclude-file '.lycheeignore' --no-progress --timeout 60 --cache --retry-wait-time 3 --max-concurrency 64 README.md
         fail: true
