@@ -631,6 +631,8 @@ This list is for developers and modders working with such formats. It provides t
 - [010 Templates / ImHex Patterns](https://github.com/neptuwunium/bt) - Templates for binary analysis.
 - [010GameTemplates](https://github.com/Nenkai/010GameTemplates) - Collection of 010 Editor templates for various games including Gran Turismo, Forza, Project Cars, Ridge Racer 7, Tales of Vesperia, Xenoblade Chronicles, Granblue Fantasy: Relink, Driveclub, WWE 2K, and many others.
 - [010-Editor-Templates](https://github.com/tge-was-taken/010-Editor-Templates) - Collection of 010 Editor binary templates for game file format analysis.
+- [GameRes010Templates](https://github.com/miccTronic/GameRes010Templates) - 010 Editor templates for reading resource files from various games.
+  - Games: LithTech 5/Monolith (F.E.A.R. 2, Condemned 2), Asura Engine/Rebellion (Aliens vs. Predator 2010), Unreal Engine 1/2 (Thief: Deadly Shadows, Deus Ex: Invisible War), Incubation (Blue Byte, 1997), Nocturne/Demon Engine/Terminal Reality (Nocturne, Blair Witch I/II/III), King's Quest VIII: The Mask of Eternity.
 - [mafia-formats](https://github.com/pudingus/mafia-formats) - 010 Editor templates for Mafia: The City of Lost Heaven file formats.
 - [chtdb](https://github.com/tge-was-taken/chtdb) - Cheats and patches database for PSX games, primarily intended for use with DuckStation emulator. Contains GameShark codes and patches for various games.
 - [XenonRecomp](https://github.com/hedge-dev/XenonRecomp) - Tool for recompiling Xbox 360 games to native executables. Converts Xbox 360 executables into C++ code that can be recompiled for any platform.
@@ -2604,6 +2606,8 @@ This list is for developers and modders working with such formats. It provides t
 - [F.E.A.R. 3dsmax 7 model import plugin](https://www.moddb.com/games/fear/downloads/3dsmax-7-model-import-plugin)
 - [F.E.A.R. 2 unofficial extraction tools](https://www.moddb.com/games/fear-2/downloads/fear-2-unofficial-extraction-tools) - Unofficial tools for extracting F.E.A.R. 2 archives, textures, and sounds.
 - [Fear2Tools](https://github.com/Nenkai/Fear2Tools) - F.E.A.R 2 Project Origin LTArchive extractor/packer & database editor.
+- [LithTechLokiResearch](https://github.com/miccTronic/LithTechLokiResearch) - Research materials for the LithTech 5 ("Loki") engine used in F.E.A.R. 2 and Condemned 2. Includes 010 Editor templates and code examples for parsing world files.
+  - Formats: .wld (world/map), .WldSrvr, .WldClnt, .bndl (bundle archives), .inst (prefab/instances), .mdl (models), .txanim (animated materials).
 - [FEAR Online 3dsmax script (F.E.A.R. 2)](https://www.moddb.com/games/fear-2/downloads/fear-online-3dsmax-script)
 - [Video Tutorial: 3DSMax Plugin (F.E.A.R.)](https://www.moddb.com/games/fear/downloads/video-tutorial-3dsmax-plugin)
 - [FEAR Database Extractor](https://www.moddb.com/games/fear/downloads/fear-database-extractor)
