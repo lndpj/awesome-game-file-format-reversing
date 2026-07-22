@@ -2590,7 +2590,6 @@ This list is for developers and modders working with such formats. It provides t
 #### Fatal Frame
 
 - [himuro (decomp)](https://github.com/mikompilation/himuro) - Matching decompilation of Fatal Frame (PS2).
-- [minakami (decomp)](https://github.com/mikompilation/minakami) - Matching decompilation of Fatal Frame 2 (PS2).
 
 ### Konami
 
